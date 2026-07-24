@@ -1,23 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --surface: #f7f5f2;
-  --surface-2: #efece7;
-  --foreground: #1c1b1a;
-  --ink-soft: #3a3836;
-  --muted: #6d6a66;
-  --line: #e5e1db;
-  --line-strong: #d5cfc6;
+  /* Carta calda, non bianco piatto */
+  --background: #fbfaf7;
+  --paper: #ffffff;
+  --surface: #f4f1ea;
+  --surface-2: #ebe6dc;
+  --foreground: #1a1917;
+  --ink-soft: #38352f;
+  --muted: #6f6a60;
+  --line: #e2ddd2;
+  --line-strong: #cbc4b5;
   /* Accento bordeaux dal logo "EDILE" / motivo finestra */
   --bordeaux: #9c1b2e;
   --bordeaux-dark: #7c1424;
-  --bordeaux-tint: #f6e8ea;
-  --charcoal: #201f1e;
+  --bordeaux-tint: #f6e7e9;
+  --charcoal: #171512;
+  --gold: #b08a4f;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-paper: var(--paper);
   --color-surface: var(--surface);
   --color-surface-2: var(--surface-2);
   --color-foreground: var(--foreground);
@@ -29,6 +33,7 @@
   --color-bordeaux-dark: var(--bordeaux-dark);
   --color-bordeaux-tint: var(--bordeaux-tint);
   --color-charcoal: var(--charcoal);
+  --color-gold: var(--gold);
   --font-sans: var(--font-sans-ui);
   --font-serif: var(--font-serif-head);
 }
@@ -41,64 +46,202 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans-ui), system-ui, -apple-system, sans-serif;
+  font-family: var(--font-sans-ui), "Libre Franklin", system-ui, sans-serif;
   font-size: 17px;
-  line-height: 1.65;
+  line-height: 1.68;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
+/* ---- Display serif ad alto contrasto ---- */
 h1,
 h2,
 h3,
 h4,
 .font-head {
   font-family: var(--font-serif-head), Georgia, "Times New Roman", serif;
-  letter-spacing: -0.01em;
-  line-height: 1.15;
   color: var(--charcoal);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.06;
+  font-variation-settings: "opsz" 144;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
-/* Anchor offset so the sticky header doesn't cover section headings */
 :target {
-  scroll-margin-top: 96px;
+  scroll-margin-top: 140px;
 }
 
 .container-ge {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1220px;
   margin-inline: auto;
-  padding-inline: 1rem;
+  padding-inline: 1.15rem;
 }
 
-/* Rich article prose */
+/* ---- Filetti da quotidiano ---- */
+.rule {
+  border: 0;
+  border-top: 1px solid var(--line-strong);
+}
+.rule-double {
+  border: 0;
+  border-top: 3px double var(--line-strong);
+}
+.rule-bordeaux {
+  border: 0;
+  border-top: 2px solid var(--bordeaux);
+}
+
+/* ---- Kicker / etichetta rubrica ---- */
+.kicker {
+  font-family: var(--font-sans-ui), sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--bordeaux);
+}
+
+/* Etichetta sezione con "bandierina" bordeaux */
+.section-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-serif-head), serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--charcoal);
+}
+.section-flag::before {
+  content: "";
+  width: 12px;
+  height: 1.4rem;
+  background: var(--bordeaux);
+  border-radius: 1px;
+}
+
+/* ---- Bottoni ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans-ui), sans-serif;
+  font-weight: 600;
+  font-size: 0.86rem;
+  letter-spacing: 0.01em;
+  padding: 0.62rem 1.1rem;
+  border-radius: 2px;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  cursor: pointer;
+  line-height: 1;
+}
+.btn-primary {
+  background: var(--bordeaux);
+  color: #fff;
+  border: 1px solid var(--bordeaux);
+}
+.btn-primary:hover {
+  background: var(--bordeaux-dark);
+  border-color: var(--bordeaux-dark);
+}
+.btn-ghost {
+  background: transparent;
+  color: var(--charcoal);
+  border: 1px solid var(--line-strong);
+}
+.btn-ghost:hover {
+  border-color: var(--bordeaux);
+  color: var(--bordeaux);
+}
+
+/* ---- Link con underline animato ---- */
+.nav-link {
+  position: relative;
+  font-family: var(--font-sans-ui), sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background: var(--bordeaux);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.22s ease;
+}
+.nav-link:hover::after,
+.nav-link[data-active="true"]::after {
+  transform: scaleX(1);
+}
+
+/* ---- Card editoriale ---- */
+.card-hover {
+  transition: transform 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-3px);
+}
+.card-hover .card-img {
+  transition: transform 0.5s ease;
+}
+.card-hover:hover .card-img {
+  transform: scale(1.04);
+}
+.card-title {
+  transition: color 0.15s ease;
+}
+.card-hover:hover .card-title {
+  color: var(--bordeaux);
+}
+
+/* ---- Prose articolo ---- */
+.prose-ge {
+  font-size: 1.075rem;
+  line-height: 1.72;
+}
 .prose-ge p {
-  margin-block: 1rem;
+  margin-block: 1.05rem;
   color: var(--ink-soft);
 }
+/* Capolettera editoriale */
+.prose-ge > div:first-child p:first-of-type::first-letter,
+.prose-ge > p:first-of-type::first-letter {
+  font-family: var(--font-serif-head), serif;
+  font-weight: 600;
+  float: left;
+  font-size: 3.7rem;
+  line-height: 0.82;
+  padding: 0.35rem 0.7rem 0 0;
+  color: var(--bordeaux);
+}
 .prose-ge h2 {
-  font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
-  margin-top: 2.4rem;
-  margin-bottom: 0.8rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--line);
+  font-size: clamp(1.55rem, 1.2rem + 1.4vw, 2.15rem);
+  margin-top: 2.6rem;
+  margin-bottom: 0.7rem;
 }
 .prose-ge h3 {
-  font-size: clamp(1.2rem, 1.05rem + 0.6vw, 1.45rem);
-  margin-top: 1.8rem;
-  margin-bottom: 0.6rem;
+  font-size: clamp(1.22rem, 1.05rem + 0.7vw, 1.5rem);
+  margin-top: 1.9rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 .prose-ge ul,
 .prose-ge ol {
-  margin-block: 1rem;
-  padding-left: 1.3rem;
+  margin-block: 1.1rem;
+  padding-left: 1.4rem;
   color: var(--ink-soft);
 }
 .prose-ge li {
-  margin-block: 0.4rem;
+  margin-block: 0.45rem;
 }
 .prose-ge ul li {
   list-style: none;
@@ -107,43 +250,51 @@ a {
 .prose-ge ul li::before {
   content: "";
   position: absolute;
-  left: -1rem;
-  top: 0.65em;
-  width: 6px;
-  height: 6px;
+  left: -1.1rem;
+  top: 0.68em;
+  width: 7px;
+  height: 7px;
   background: var(--bordeaux);
-  border-radius: 1px;
+  transform: rotate(45deg);
 }
 .prose-ge ol {
   list-style: decimal;
 }
+.prose-ge ol li::marker {
+  color: var(--bordeaux);
+  font-weight: 700;
+}
 .prose-ge a {
   color: var(--bordeaux-dark);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1px;
+  border-bottom: 1px solid var(--bordeaux-tint);
+  transition: border-color 0.15s ease;
+}
+.prose-ge a:hover {
+  border-color: var(--bordeaux);
 }
 .prose-ge strong {
   color: var(--charcoal);
   font-weight: 700;
 }
 
-.hairline {
-  border-color: var(--line);
+/* Grana leggera per dare profondità allo sfondo scuro */
+.grain {
+  position: relative;
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-.kicker {
-  font-family: var(--font-sans-ui), sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: var(--bordeaux);
+/* Reveal al caricamento */
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
 }
-
-.link-hover {
-  transition: color 0.15s ease;
-}
-.link-hover:hover {
-  color: var(--bordeaux);
+.rise {
+  animation: riseIn 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }

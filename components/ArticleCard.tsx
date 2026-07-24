@@ -19,9 +19,9 @@ export function ArticleCard({
 
   if (variant === "compact") {
     return (
-      <Link href={href} className="group flex flex-col gap-1 py-3">
+      <Link href={href} className="card-hover group block py-3">
         <span className="kicker">{cat?.name}</span>
-        <span className="font-head text-[1.05rem] font-semibold leading-snug text-charcoal group-hover:text-bordeaux">
+        <span className="card-title mt-1 block font-serif text-[1.08rem] font-semibold leading-snug text-charcoal">
           {article.title}
         </span>
       </Link>
@@ -30,13 +30,13 @@ export function ArticleCard({
 
   if (variant === "row") {
     return (
-      <Link href={href} className="group grid grid-cols-[96px_1fr] gap-3 py-3">
-        <div className="relative aspect-[4/3] overflow-hidden rounded-sm bg-surface">
-          <Image src={article.cover.src} alt={article.cover.alt} fill sizes="96px" className="object-cover" />
+      <Link href={href} className="card-hover group grid grid-cols-[104px_1fr] gap-4 py-4">
+        <div className="relative aspect-[4/3] overflow-hidden rounded-[2px] bg-surface">
+          <Image src={article.cover.src} alt={article.cover.alt} fill sizes="104px" className="card-img object-cover" />
         </div>
-        <div className="flex flex-col gap-1">
+        <div>
           <span className="kicker">{cat?.name}</span>
-          <span className="font-head text-[1rem] font-semibold leading-snug text-charcoal group-hover:text-bordeaux">
+          <span className="card-title mt-1 block font-serif text-[1.02rem] font-semibold leading-snug text-charcoal">
             {article.title}
           </span>
         </div>
@@ -46,27 +46,34 @@ export function ArticleCard({
 
   const isHero = variant === "hero";
   return (
-    <Link href={href} className="group flex flex-col gap-3">
-      <div className={`relative overflow-hidden rounded-sm bg-surface ${isHero ? "aspect-[16/9]" : "aspect-[3/2]"}`}>
+    <Link href={href} className="card-hover group flex flex-col">
+      <div className={`relative overflow-hidden rounded-[3px] bg-surface ${isHero ? "aspect-[16/10]" : "aspect-[3/2]"}`}>
         <Image
           src={article.cover.src}
           alt={article.cover.alt}
           fill
           priority={priority}
-          sizes={isHero ? "(max-width:768px) 100vw, 800px" : "(max-width:768px) 100vw, 400px"}
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          sizes={isHero ? "(max-width:768px) 100vw, 820px" : "(max-width:768px) 100vw, 420px"}
+          className="card-img object-cover"
         />
+        {isHero && (
+          <span className="absolute left-0 top-0 bg-bordeaux px-3 py-1.5 text-[0.66rem] font-bold uppercase tracking-[0.16em] text-white">
+            {cat?.name}
+          </span>
+        )}
       </div>
-      <div className="flex flex-col gap-2">
-        <span className="kicker">{cat?.name}</span>
+      <div className="flex flex-col gap-2 pt-4">
+        {!isHero && <span className="kicker">{cat?.name}</span>}
         <h3
-          className={`font-head font-bold leading-tight text-charcoal group-hover:text-bordeaux ${
-            isHero ? "text-2xl sm:text-[2rem]" : "text-lg"
+          className={`card-title font-serif font-semibold leading-[1.08] text-charcoal ${
+            isHero ? "text-[2rem] sm:text-[2.6rem]" : "text-[1.28rem]"
           }`}
         >
           {article.title}
         </h3>
-        <p className={`text-muted ${isHero ? "text-base" : "text-sm line-clamp-2"}`}>{article.abstract}</p>
+        <p className={`text-muted ${isHero ? "mt-1 text-[1.05rem] leading-relaxed" : "text-[0.95rem] leading-snug"}`}>
+          {isHero ? article.abstract : article.metaDescription}
+        </p>
       </div>
     </Link>
   );

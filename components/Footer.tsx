@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { CATEGORIES } from "@/lib/categories";
 import { SITE } from "@/lib/site";
 
@@ -13,48 +14,56 @@ const SERVICE_LINKS = [
 ];
 
 export function Footer() {
-  const year = "2026";
   return (
-    <footer className="mt-16 border-t border-line bg-charcoal text-white/80">
-      <div className="container-ge grid gap-10 py-12 md:grid-cols-[1.3fr_1fr_1fr]">
-        <div>
-          <div className="mb-3 flex items-baseline gap-2">
-            <span className="font-head text-xl font-bold text-white">Gazzetta</span>
-            <span className="font-head text-xl font-bold text-bordeaux">Edile</span>
+    <footer className="grain mt-20 bg-charcoal text-white/75">
+      <div className="relative z-10">
+        <div className="container-ge grid gap-10 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
+          <div>
+            <Image
+              src="/logo.png"
+              alt="Gazzetta Edile"
+              width={230}
+              height={60}
+              className="h-12 w-auto brightness-0 invert"
+            />
+            <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/55">
+              {SITE.tagline}. Guide autorevoli, dati e risposte pratiche su ristrutturazioni,
+              serramenti, efficienza energetica, materiali, impianti, incentivi e normative.
+            </p>
           </div>
-          <p className="max-w-sm text-sm leading-relaxed text-white/70">{SITE.tagline}. {SITE.description.slice(0, 120)}…</p>
+
+          <nav aria-label="Rubriche">
+            <h2 className="mb-4 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-bordeaux">Rubriche</h2>
+            <ul className="space-y-2.5 text-sm">
+              {CATEGORIES.map((c) => (
+                <li key={c.slug}>
+                  <Link href={`/${c.slug}`} className="text-white/60 transition-colors hover:text-white">
+                    {c.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <nav aria-label="Testata">
+            <h2 className="mb-4 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-bordeaux">Testata</h2>
+            <ul className="space-y-2.5 text-sm">
+              {SERVICE_LINKS.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="text-white/60 transition-colors hover:text-white">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
         </div>
 
-        <nav aria-label="Rubriche">
-          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-white">Rubriche</h2>
-          <ul className="space-y-2 text-sm">
-            {CATEGORIES.map((c) => (
-              <li key={c.slug}>
-                <Link href={`/${c.slug}`} className="text-white/70 transition-colors hover:text-white">
-                  {c.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-
-        <nav aria-label="Testata">
-          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-white">Testata</h2>
-          <ul className="space-y-2 text-sm">
-            {SERVICE_LINKS.map((l) => (
-              <li key={l.href}>
-                <Link href={l.href} className="text-white/70 transition-colors hover:text-white">
-                  {l.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </div>
-      <div className="border-t border-white/10">
-        <div className="container-ge flex flex-col gap-1 py-5 text-xs text-white/50 sm:flex-row sm:items-center sm:justify-between">
-          <span>© {year} {SITE.name}. Testata verticale sull'edilizia.</span>
-          <span>Contenuti a scopo informativo. Verifica sempre normative e incentivi vigenti.</span>
+        <div className="border-t border-white/10">
+          <div className="container-ge flex flex-col gap-1 py-6 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between">
+            <span>© 2026 {SITE.name}. Testata verticale sull&apos;edilizia.</span>
+            <span>Contenuti a scopo informativo. Verifica sempre normative e incentivi vigenti.</span>
+          </div>
         </div>
       </div>
     </footer>

@@ -1,19 +1,21 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Fraunces, Libre_Franklin } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { SITE, baseUrl, absoluteUrl } from "@/lib/site";
 
-const serif = Playfair_Display({
+// Display: Fraunces — serif Didone ad alto contrasto, in armonia col logo.
+const display = Fraunces({
   subsets: ["latin"],
-  weight: ["600", "700", "800"],
+  style: ["normal", "italic"],
   variable: "--font-serif-head",
   display: "swap",
 });
 
-const sans = Inter({
+// Corpo/UI: Libre Franklin — grottesco editoriale da quotidiano.
+const sans = Libre_Franklin({
   subsets: ["latin"],
   variable: "--font-sans-ui",
   display: "swap",
@@ -73,7 +75,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   };
 
   return (
-    <html lang="it" className={`${serif.variable} ${sans.variable}`}>
+    <html lang="it" className={`${display.variable} ${sans.variable}`}>
       <body>
         <JsonLd data={[orgSchema, siteSchema]} />
         <a
