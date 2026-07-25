@@ -8,10 +8,10 @@ export const SITE = {
     "Gazzetta Edile è la testata giornalistica online dedicata all'edilizia: ristrutturazioni, serramenti, efficienza energetica, materiali, impianti, incentivi, tecnologie e normative. Guide autorevoli, dati e risposte pratiche per imprese, professionisti e privati.",
   locale: "it_IT",
   lang: "it",
-  // Aggiornare dopo il deploy con il dominio definitivo (es. https://gazzettaedile.it)
+  // Dominio di produzione (override via env per i preview).
   url:
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://gazzetta-edile.vercel.app",
+    "https://www.gazzettaedile.it",
   publisher: "Redazione Gazzetta Edile",
   email: "redazione@gazzettaedile.it",
   // Placeholder social — da confermare
