@@ -20,7 +20,7 @@ export const superbonusIncentivi2026: Article = {
   publishedAt: "2026-07-14",
   updatedAt: "2026-07-23",
   cover: {
-    src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=70",
+    src: "/covers/superbonus-incentivi-2026.png",
     alt: "Documenti, calcolatrice e progetto edilizio su una scrivania",
   },
   pillar: false,

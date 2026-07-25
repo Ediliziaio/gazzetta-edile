@@ -20,7 +20,7 @@ export const ristrutturareCasaCosti2026: Article = {
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
   cover: {
-    src: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=70",
+    src: "/covers/ristrutturare-casa-costi-2026.png",
     alt: "Cantiere di ristrutturazione di un appartamento con materiali e attrezzi",
   },
   pillar: true,

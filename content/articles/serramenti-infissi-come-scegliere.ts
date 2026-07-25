@@ -20,7 +20,7 @@ export const serramentiInfissiComeScegliere: Article = {
   publishedAt: "2026-07-12",
   updatedAt: "2026-07-20",
   cover: {
-    src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=70",
+    src: "/covers/serramenti-infissi-come-scegliere.png",
     alt: "Ampie finestre con infissi moderni in un interno luminoso",
   },
   pillar: false,

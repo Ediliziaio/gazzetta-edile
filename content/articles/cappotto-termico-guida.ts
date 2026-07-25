@@ -19,7 +19,7 @@ export const cappottoTermicoGuida: Article = {
   publishedAt: "2026-07-16",
   updatedAt: "2026-07-21",
   cover: {
-    src: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=70",
+    src: "/covers/cappotto-termico-guida.png",
     alt: "Posa di pannelli isolanti per cappotto termico sulla facciata di un edificio",
   },
   pillar: false,

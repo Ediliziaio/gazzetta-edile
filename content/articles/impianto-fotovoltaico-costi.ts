@@ -19,7 +19,7 @@ export const impiantoFotovoltaicoCosti: Article = {
   publishedAt: "2026-07-18",
   updatedAt: "2026-07-22",
   cover: {
-    src: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1200&q=70",
+    src: "/covers/impianto-fotovoltaico-costi.png",
     alt: "Tecnico che installa un pannello fotovoltaico su una struttura di montaggio",
   },
   pillar: false,

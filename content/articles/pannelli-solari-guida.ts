@@ -20,7 +20,7 @@ export const pannelliSolariGuida: Article = {
   publishedAt: "2026-07-20",
   updatedAt: "2026-07-24",
   cover: {
-    src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=70",
+    src: "/covers/pannelli-solari-guida.png",
     alt: "Pannelli solari fotovoltaici installati sul tetto di un'abitazione",
   },
   pillar: true,

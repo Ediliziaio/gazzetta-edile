@@ -20,7 +20,7 @@ export const miglioriGestionaliEdilizia: Article = {
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
   cover: {
-    src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=70",
+    src: "/covers/migliori-gestionali-edilizia-2026.png",
     alt: "Software gestionale per l'edilizia visualizzato su un laptop in cantiere",
   },
   pillar: true,
