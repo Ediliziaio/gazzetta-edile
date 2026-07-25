@@ -20,8 +20,8 @@ export const pompeDiCaloreGuida: Article = {
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
   cover: {
-    src: "https://images.unsplash.com/photo-1631545806609-c2b999be5aeb?auto=format&fit=crop&w=1200&q=70",
-    alt: "Unità esterna di una pompa di calore installata a parete di un'abitazione",
+    src: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=70",
+    alt: "Abitazione moderna efficiente dal punto di vista energetico con pompa di calore",
   },
   pillar: false,
   schemaType: "Article",
