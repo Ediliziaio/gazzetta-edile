@@ -7,6 +7,9 @@ import { serramentiInfissiComeScegliere } from "./serramenti-infissi-come-scegli
 import { miglioriGestionaliEdilizia } from "./migliori-gestionali-edilizia";
 import { ristrutturareCasaCosti2026 } from "./ristrutturare-casa-costi-2026";
 import { pompeDiCaloreGuida } from "./pompe-di-calore-guida";
+import { materialiDaCostruzioneGuida } from "./materiali-da-costruzione-guida";
+import { impiantoElettricoCasa } from "./impianto-elettrico-casa";
+import { permessiEdiliziCilaScia } from "./permessi-edilizi-cila-scia";
 
 // Registro di tutti gli articoli. Aggiungere qui ogni nuovo articolo.
 export const articles: Article[] = [
@@ -18,4 +21,7 @@ export const articles: Article[] = [
   miglioriGestionaliEdilizia,
   ristrutturareCasaCosti2026,
   pompeDiCaloreGuida,
+  materialiDaCostruzioneGuida,
+  impiantoElettricoCasa,
+  permessiEdiliziCilaScia,
 ];
