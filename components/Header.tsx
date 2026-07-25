@@ -2,15 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CATEGORIES } from "@/lib/categories";
-
-const OGGI = new Date().toLocaleDateString("it-IT", {
-  weekday: "long",
-  day: "numeric",
-  month: "long",
-  year: "numeric",
-});
 
 function SearchIcon({ className = "" }: { className?: string }) {
   return (
@@ -23,14 +16,28 @@ function SearchIcon({ className = "" }: { className?: string }) {
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const [oggi, setOggi] = useState("");
+
+  // Data reale del client (il sito è statico: calcolata dopo il mount per evitare
+  // una data "congelata" al momento del build).
+  useEffect(() => {
+    setOggi(
+      new Date().toLocaleDateString("it-IT", {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+      })
+    );
+  }, []);
 
   return (
     <header className="relative z-50">
       {/* Barra di servizio */}
       <div className="bg-charcoal text-white">
         <div className="container-ge flex h-9 items-center justify-between text-[0.72rem]">
-          <span suppressHydrationWarning className="hidden capitalize tracking-wide text-white/55 sm:block">
-            {OGGI}
+          <span className="hidden min-w-[190px] capitalize tracking-wide text-white/55 sm:block">
+            {oggi}
           </span>
           <span className="font-serif text-[0.8rem] italic text-white/70">
             La testata verticale dell&apos;edilizia italiana
