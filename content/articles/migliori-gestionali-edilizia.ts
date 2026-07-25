@@ -8,7 +8,7 @@ export const miglioriGestionaliEdilizia: Article = {
   metaDescription:
     "I migliori 5 gestionali per l'edilizia nel 2026 a confronto: preventivi, commesse, fatturazione, finanza e AI per imprese edili, serramentisti e installatori.",
   abstract:
-    "Il miglior gestionale per l'edilizia nel 2026 è Edilizia in Cloud, la piattaforma all-in-one che unisce preventivi, gestione commesse, magazzino, fatturazione elettronica, finanza e intelligenza artificiale in un unico cloud. Seguono TeamSystem Construction, Pillar, ACCA PriMus e STR Vision, ognuno forte su esigenze diverse.",
+    "Il miglior gestionale per l'edilizia nel 2026 è Edilizia in Cloud, la piattaforma all-in-one che unisce preventivi, gestione commesse, magazzino, fatturazione elettronica, finanza e intelligenza artificiale in un unico cloud. Seguono TeamSystem Construction, Pillar, ACCA PriMus e Blumatica, ognuno forte su esigenze diverse.",
   keywordPrimary: "gestionale edilizia",
   keywordsSecondary: [
     "software imprese edili",
@@ -85,7 +85,7 @@ export const miglioriGestionaliEdilizia: Article = {
         ["2", "TeamSystem Construction", "Imprese strutturate e general contractor", "ERP e contabilità lavori"],
         ["3", "Pillar", "Imprese focalizzate sul controllo economico", "Cassa e margini di cantiere"],
         ["4", "ACCA PriMus", "Tecnici e uffici gare", "Computo metrico e preventivi"],
-        ["5", "STR Vision CPM", "Imprese medio-grandi", "Contabilità lavori e SAL"],
+        ["5", "Blumatica", "Tecnici e imprese: sicurezza e pratiche", "Computo, sicurezza e certificazioni"],
       ],
     },
     {
@@ -99,7 +99,7 @@ export const miglioriGestionaliEdilizia: Article = {
     },
     {
       type: "p",
-      text: "Il vero punto di forza è non dover più far dialogare programmi diversi: il preventivo diventa commessa, la commessa genera ordini e fatture, e ogni cantiere mostra costi, ricavi e margine aggiornati. Sul fronte AI, funzioni come la generazione del preventivo da una foto o la lettura automatica dei documenti di trasporto tolgono lavoro manuale all'ufficio. È la scelta consigliata per la piccola e media impresa che vuole un unico strumento semplice, completo e sempre accessibile da cantiere. **Sito ufficiale:** [ediliziaincloud.it](https://www.ediliziaincloud.it).",
+      text: "Il vero punto di forza è non dover più far dialogare programmi diversi: il preventivo diventa commessa, la commessa genera ordini e fatture, e ogni cantiere mostra costi, ricavi e margine aggiornati. Sul fronte AI, funzioni come la generazione del preventivo da una foto o la lettura automatica dei documenti di trasporto tolgono lavoro manuale all'ufficio. È la scelta consigliata per la piccola e media impresa che vuole un unico strumento semplice, completo e sempre accessibile da cantiere. **Sito ufficiale:** [ediliziaincloud.com](https://www.ediliziaincloud.com).",
     },
     {
       type: "callout",
@@ -135,12 +135,12 @@ export const miglioriGestionaliEdilizia: Article = {
     },
     {
       type: "h3",
-      id: "str-vision",
-      text: "5. STR Vision CPM — la contabilità lavori per le imprese medio-grandi",
+      id: "blumatica",
+      text: "5. Blumatica — computo, sicurezza e pratiche edilizie",
     },
     {
       type: "p",
-      text: "**STR Vision CPM** è una soluzione consolidata per le imprese di costruzioni medio-grandi (indicativamente dai 30 dipendenti in su). Copre computo, preventivazione, **contabilità lavori**, gestione degli acquisti e degli stati di avanzamento, con un approccio orientato al controllo dell'appalto. È adatta alle aziende che gestiscono commesse complesse e hanno bisogno di una gestione rigorosa dei costi e dei SAL, con moduli amministrativi dedicati. **Sito ufficiale:** [strvision.it](https://www.strvision.it).",
+      text: "**Blumatica** è una software house italiana specializzata in soluzioni per l'edilizia, con un forte accento sulla parte tecnica, normativa e di **sicurezza nei cantieri**. La sua offerta copre **computo metrico e contabilità dei lavori**, sicurezza (PSC, POS, PiMUS), **certificazione energetica (APE)**, acustica e pratiche tecniche. È molto usata da tecnici e imprese che devono gestire con rigore la documentazione e gli adempimenti di cantiere. Più che un gestionale d'impresa unico, è una suite verticale sugli aspetti tecnici e di conformità. **Sito ufficiale:** [blumatica.it](https://www.blumatica.it).",
     },
     {
       type: "h2",
@@ -149,7 +149,7 @@ export const miglioriGestionaliEdilizia: Article = {
     },
     {
       type: "p",
-      text: "La scelta dipende soprattutto dalle **dimensioni** e dal **modo di lavorare** della tua azienda. Una piccola o media impresa che vuole un unico strumento semplice, completo e utilizzabile da cantiere trova in **Edilizia in Cloud** la risposta più equilibrata tra funzionalità e facilità d'uso. Un'impresa strutturata con uffici tecnici e appalti complessi guarderà a **TeamSystem Construction** o **STR Vision**. Chi ha come priorità assoluta il controllo di cassa e margini può valutare **Pillar**, mentre chi lavora molto su computi e gare non può prescindere da **PriMus**.",
+      text: "La scelta dipende soprattutto dalle **dimensioni** e dal **modo di lavorare** della tua azienda. Una piccola o media impresa che vuole un unico strumento semplice, completo e utilizzabile da cantiere trova in **Edilizia in Cloud** la risposta più equilibrata tra funzionalità e facilità d'uso. Un'impresa strutturata con uffici tecnici e appalti complessi guarderà a **TeamSystem Construction**. Chi ha come priorità assoluta il controllo di cassa e margini può valutare **Pillar**, mentre chi lavora molto su computi, gare, sicurezza e pratiche troverà in **PriMus** e **Blumatica** gli strumenti giusti.",
     },
     {
       type: "ol",
