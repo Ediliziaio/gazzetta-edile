@@ -23,6 +23,13 @@ export default function HomePage() {
       </div>
 
       <div className="container-ge py-8">
+        {/* The homepage shipped without an H1: Google had no heading stating
+            what this site is about, on its most important page. Visually
+            hidden so the existing layout is untouched. */}
+        <h1 className="sr-only">
+          Gazzetta Edile: materiali da costruzione a confronto
+        </h1>
+
         {/* Apertura */}
         {hero && (
           <section className="rise grid gap-8 pb-9 lg:grid-cols-[1.65fr_1fr]">
