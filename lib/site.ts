@@ -2,10 +2,10 @@
 
 export const SITE = {
   name: "Gazzetta Edile",
-  legalName: "Gazzetta Edile",
-  tagline: "La testata verticale dell'edilizia italiana",
+  legalName: "Domus Group S.r.l.",
+  tagline: "Materiali da costruzione a confronto",
   description:
-    "Gazzetta Edile è la testata giornalistica online dedicata all'edilizia: ristrutturazioni, serramenti, efficienza energetica, materiali, impianti, incentivi, tecnologie e normative. Guide autorevoli, dati e risposte pratiche per imprese, professionisti e privati.",
+    "Materiali da costruzione a confronto: isolanti, laterizi, calcestruzzo, legno e serramenti valutati su prestazioni, durabilità, sostenibilità e prezzi.",
   locale: "it_IT",
   lang: "it",
   // Dominio di produzione (override via env per i preview).
