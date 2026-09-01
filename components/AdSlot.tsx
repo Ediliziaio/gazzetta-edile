@@ -1,32 +1,89 @@
-// Reserved-space ad placeholder. Fixed dimensions => zero CLS.
-// Swap the inner markup for AdSense / Ad Manager when the editor is ready.
+import Image from "next/image";
 
-type Format = "leaderboard" | "rectangle" | "in-feed" | "mobile-anchor";
+// Slot pubblicitari con creativi reali.
+// SEO: i link pubblicitari sono marcati rel="sponsored" (richiesto da Google per
+// link promozionali/a pagamento) + noopener. Dimensioni esplicite => zero CLS.
 
-const DIMS: Record<Format, { w: number | string; h: number; label: string }> = {
-  leaderboard: { w: 728, h: 90, label: "728×90" },
-  rectangle: { w: 300, h: 250, label: "300×250" },
-  "in-feed": { w: "100%", h: 120, label: "Native / in-feed" },
-  "mobile-anchor": { w: "100%", h: 60, label: "Anchor 320×50" },
+type Format = "leaderboard" | "rectangle" | "in-feed" | "skyscraper" | "mobile-anchor";
+
+const ADV_URL =
+  "https://www.ediliziaincloud.com/?utm_source=gazzettaedile&utm_medium=banner&utm_campaign=display";
+
+const ADV_ALT =
+  "EdiliziaInCloud: il gestionale con AI per imprese edili. Prova gratuita di 31 giorni";
+
+interface Creative {
+  src: string;
+  width: number;
+  height: number;
+  maxWidth: number;
+}
+
+const CREATIVES: Record<Format, Creative> = {
+  leaderboard: { src: "/ads/eic-leaderboard.png", width: 970, height: 90, maxWidth: 970 },
+  "in-feed": { src: "/ads/eic-billboard.png", width: 970, height: 402, maxWidth: 970 },
+  rectangle: { src: "/ads/eic-rectangle.png", width: 300, height: 250, maxWidth: 300 },
+  skyscraper: { src: "/ads/eic-skyscraper.png", width: 300, height: 600, maxWidth: 300 },
+  "mobile-anchor": { src: "/ads/eic-square.png", width: 336, height: 244, maxWidth: 336 },
 };
 
-export function AdSlot({ format = "rectangle", className = "" }: { format?: Format; className?: string }) {
-  const d = DIMS[format];
+function Banner({ format, priority = false }: { format: Format; priority?: boolean }) {
+  const c = CREATIVES[format];
   return (
-    <div className={`flex justify-center ${className}`} aria-hidden>
-      <div
-        className="flex items-center justify-center text-[0.65rem] uppercase tracking-widest text-muted"
-        style={{
-          width: d.w,
-          maxWidth: "100%",
-          height: d.h,
-          background:
-            "repeating-linear-gradient(45deg,#f4f1ec,#f4f1ec 10px,#efece7 10px,#efece7 20px)",
-          border: "1px solid var(--line)",
-        }}
-      >
-        Spazio pubblicitario · {d.label}
-      </div>
-    </div>
+    <a
+      href={ADV_URL}
+      target="_blank"
+      rel="sponsored noopener noreferrer"
+      aria-label={ADV_ALT}
+      className="block transition-opacity hover:opacity-90"
+      style={{ width: "100%", maxWidth: c.maxWidth }}
+    >
+      <Image
+        src={c.src}
+        alt={ADV_ALT}
+        width={c.width}
+        height={c.height}
+        priority={priority}
+        loading={priority ? undefined : "lazy"}
+        sizes={`(max-width: 768px) 100vw, ${c.maxWidth}px`}
+        className="h-auto w-full rounded-[2px]"
+      />
+    </a>
+  );
+}
+
+export function AdSlot({
+  format = "rectangle",
+  className = "",
+  priority = false,
+}: {
+  format?: Format;
+  className?: string;
+  priority?: boolean;
+}) {
+  // Il leaderboard è illeggibile sotto i 768px: su mobile si usa il creativo compatto.
+  const responsive = format === "leaderboard" || format === "in-feed";
+
+  return (
+    <aside
+      className={`flex flex-col items-center ${className}`}
+      aria-label="Contenuto pubblicitario"
+    >
+      <span className="mb-1 text-[0.6rem] uppercase tracking-[0.2em] text-muted/70">
+        Pubblicità
+      </span>
+      {responsive ? (
+        <>
+          <div className="hidden w-full justify-center md:flex">
+            <Banner format={format} priority={priority} />
+          </div>
+          <div className="flex w-full justify-center md:hidden">
+            <Banner format="mobile-anchor" priority={priority} />
+          </div>
+        </>
+      ) : (
+        <Banner format={format} priority={priority} />
+      )}
+    </aside>
   );
 }

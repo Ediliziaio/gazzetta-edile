@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 import {
   getArticle,
   getArticleSlugs,
@@ -89,16 +90,19 @@ export default async function ArticlePage({
     mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl(path) },
     headline: a.title,
     description: a.metaDescription,
-    image: [a.cover.src],
+    image: [absoluteUrl(a.cover.src)],
     datePublished: a.publishedAt,
     dateModified: a.updatedAt,
     inLanguage: "it-IT",
     author: {
       "@type": "Person",
+      "@id": absoluteUrl(`/autori/${author.id}#person`),
       name: author.name,
       description: author.role,
+      url: absoluteUrl(`/autori/${author.id}`),
       ...(author.sameAs.length ? { sameAs: author.sameAs } : {}),
     },
+    isAccessibleForFree: true,
     publisher: { "@id": absoluteUrl("/#organization") },
     articleSection: cat.name,
     keywords: [a.keywordPrimary, ...a.keywordsSecondary].join(", "),
@@ -124,7 +128,13 @@ export default async function ArticlePage({
               {a.title}
             </h1>
             <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
-              <span className="font-medium text-ink-soft">{author.name}</span>
+              <Link
+                href={`/autori/${author.id}`}
+                className="font-medium text-ink-soft underline-offset-2 hover:text-bordeaux hover:underline"
+                rel="author"
+              >
+                {author.name}
+              </Link>
               <span aria-hidden>·</span>
               <span>{author.role}</span>
               <span aria-hidden>·</span>
@@ -162,9 +172,21 @@ export default async function ArticlePage({
               {author.name.charAt(0)}
             </div>
             <div>
-              <p className="font-head text-lg font-bold text-charcoal">{author.name}</p>
+              <Link
+                href={`/autori/${author.id}`}
+                className="font-head text-lg font-bold text-charcoal hover:text-bordeaux"
+                rel="author"
+              >
+                {author.name}
+              </Link>
               <p className="text-xs uppercase tracking-wide text-bordeaux">{author.role}</p>
               <p className="mt-1 text-sm text-muted">{author.bio}</p>
+              <Link
+                href={`/autori/${author.id}`}
+                className="mt-2 inline-block text-xs font-semibold uppercase tracking-widest text-bordeaux"
+              >
+                Tutti gli articoli →
+              </Link>
             </div>
           </div>
 
@@ -174,7 +196,7 @@ export default async function ArticlePage({
 
         <aside className="hidden lg:block">
           <div className="sticky top-32 space-y-6">
-            <AdSlot format="rectangle" />
+            <AdSlot format="skyscraper" />
             <p className="text-xs text-muted">
               {SITE.name} — contenuti informativi. Verifica sempre normative e incentivi vigenti.
             </p>

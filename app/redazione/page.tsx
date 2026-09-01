@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 import { AUTHORS } from "@/lib/authors";
 
@@ -17,7 +18,11 @@ export default function Redazione() {
     >
       <div className="not-prose space-y-6">
         {Object.values(AUTHORS).map((a) => (
-          <div key={a.id} className="flex gap-4 rounded-sm border border-line bg-surface p-5">
+          <Link
+            key={a.id}
+            href={`/autori/${a.id}`}
+            className="flex gap-4 rounded-sm border border-line bg-surface p-5 transition-colors hover:border-bordeaux"
+          >
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-bordeaux text-lg font-bold text-white">
               {a.name.charAt(0)}
             </div>
@@ -26,7 +31,7 @@ export default function Redazione() {
               <p className="text-xs uppercase tracking-wide text-bordeaux">{a.role}</p>
               <p className="mt-1 text-sm text-muted">{a.bio}</p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </PageShell>

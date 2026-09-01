@@ -29,7 +29,10 @@ export const metadata: Metadata = {
   },
   description: SITE.description,
   applicationName: SITE.name,
-  alternates: { canonical: "/" },
+  alternates: {
+    canonical: "/",
+    types: { "application/rss+xml": "/feed.xml" },
+  },
   openGraph: {
     type: "website",
     locale: SITE.locale,
@@ -54,6 +57,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     name: SITE.name,
     url: baseUrl,
     description: SITE.description,
+    // Il logo del publisher è richiesto da Google per i rich result degli articoli.
+    logo: {
+      "@type": "ImageObject",
+      url: absoluteUrl("/logo.png"),
+      width: 1923,
+      height: 503,
+    },
+    foundingDate: "2026",
+    knowsAbout: [
+      "edilizia",
+      "ristrutturazioni",
+      "serramenti e infissi",
+      "efficienza energetica",
+      "materiali da costruzione",
+      "impianti",
+      "incentivi e bonus edilizi",
+      "normativa edilizia",
+    ],
     sameAs: SITE.sameAs,
   };
   const siteSchema = {
