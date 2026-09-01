@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { CATEGORIES } from "@/lib/categories";
 import { SITE } from "@/lib/site";
+import { CookiePreferencesLink } from "./CookieBanner";
 
 const SERVICE_LINKS = [
   { href: "/chi-siamo", label: "Chi siamo" },
@@ -62,7 +63,10 @@ export function Footer() {
         <div className="border-t border-white/10">
           <div className="container-ge flex flex-col gap-1 py-6 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between">
             <span>© 2026 {SITE.name}. Testata verticale sull&apos;edilizia.</span>
-            <span>Contenuti a scopo informativo. Verifica sempre normative e incentivi vigenti.</span>
+            <span className="flex flex-wrap items-center gap-3">
+              <CookiePreferencesLink className="text-white/40 underline underline-offset-2 transition-colors hover:text-white/70" />
+              <span>Contenuti a scopo informativo. Verifica sempre normative e incentivi vigenti.</span>
+            </span>
           </div>
         </div>
       </div>

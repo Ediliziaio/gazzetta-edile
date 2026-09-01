@@ -23,8 +23,11 @@ export default function CookiePolicy() {
         <li><strong>Marketing</strong>: profilazione pubblicitaria, previo consenso.</li>
       </ul>
       <p>
-        Puoi gestire le preferenze in qualsiasi momento dalle impostazioni del browser. Il pannello
-        di gestione consenso sarà attivato al go-live insieme agli strumenti di misurazione.
+        I cookie di statistica e marketing vengono attivati <strong>solo dopo il tuo consenso</strong>:
+        fino a quel momento nessuno strumento di misurazione scrive cookie sul tuo dispositivo
+        (Google Consent Mode v2, con stato predefinito negato). Puoi modificare la tua scelta in
+        qualsiasi momento dal link <em>Preferenze cookie</em> in fondo a ogni pagina, oltre che
+        dalle impostazioni del browser.
       </p>
     </PageShell>
   );
