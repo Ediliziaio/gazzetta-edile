@@ -18,6 +18,14 @@ export const SITE = {
   sameAs: [] as string[],
 } as const;
 
+/**
+ * Form del CRM di Edilizia in Cloud che riceve i contatti del sito.
+ * Tutti i moduli (contatti, newsletter, pubblicità) scrivono qui e si
+ * distinguono per il campo `tipo`. Unico punto da cambiare se il form viene
+ * sostituito nel CRM.
+ */
+export const EIC_FORM_ID = "45335f5b-1cb5-4a4a-91df-f6b42e0c45d9";
+
 export const baseUrl = SITE.url;
 
 export function absoluteUrl(path = "/"): string {

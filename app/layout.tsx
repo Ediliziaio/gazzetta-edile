@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { Analytics } from "@/components/Analytics";
 import { CookieBanner } from "@/components/CookieBanner";
+import { SalvaCampagna } from "@/components/SalvaCampagna";
 import { SITE, baseUrl, absoluteUrl } from "@/lib/site";
 
 // Display: Fraunces — serif Didone ad alto contrasto, in armonia col logo.
@@ -101,6 +102,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="it" className={`${display.variable} ${sans.variable}`}>
       <body>
         <Analytics />
+        {/* Parametri di campagna (UTM, gclid, fbclid) salvati per i form */}
+        <SalvaCampagna />
         <JsonLd data={[orgSchema, siteSchema]} />
         <a
           href="#main"
