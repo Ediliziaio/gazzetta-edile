@@ -119,7 +119,7 @@ export const vendereAlleImpreseEdili: Article = {
     },
     {
       type: "p",
-      text: "«Personalizzare non vuol dire mettere il nome dell’azienda nell’oggetto», dice Arnold Koci, founder di Clientium e autore de La macchina degli appuntamenti. «Vuol dire far capire in due righe che sai che lavoro fa quella ditta: cosa posa, su che cantieri, con che problemi. Se quelle righe le puoi mandare a duecento aziende uguali, non hai personalizzato niente»."
+      text: "«Personalizzare non vuol dire mettere il nome dell’azienda nell’oggetto», dice [Arnold Koci](https://www.arnoldkoci.com \"sponsored\"), founder di [Clientium](https://www.clientium.it \"sponsored\") e autore de La macchina degli appuntamenti. «Vuol dire far capire in due righe che sai che lavoro fa quella ditta: cosa posa, su che cantieri, con che problemi. Se quelle righe le puoi mandare a duecento aziende uguali, non hai personalizzato niente»."
     },
     {
       type: "h2",
