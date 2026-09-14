@@ -17,12 +17,14 @@ export function renderInline(text: string): ReactNode {
 function renderLinks(text: string): ReactNode {
   const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
   return parts.map((part, i) => {
-    const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    // [testo](url) oppure [testo](url "sponsored") per i link a pagamento
+    const m = part.match(/^\[([^\]]+)\]\((\S+?)(?:\s+"([^"]*)")?\)$/);
     if (m) {
-      const [, label, href] = m;
+      const [, label, href, title] = m;
       const external = href.startsWith("http");
+      const rel = title === "sponsored" ? "sponsored noopener" : "noopener noreferrer";
       return external ? (
-        <a key={i} href={href} target="_blank" rel="noopener noreferrer">
+        <a key={i} href={href} target="_blank" rel={rel}>
           {label}
         </a>
       ) : (

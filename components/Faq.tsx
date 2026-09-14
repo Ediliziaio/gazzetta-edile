@@ -2,6 +2,10 @@ import type { Faq as FaqType } from "@/lib/content";
 import { renderInline } from "./RichText";
 import { JsonLd } from "./JsonLd";
 
+// Lo schema FAQPage vuole testo semplice: via la sintassi di link e grassetto
+const toPlain = (s: string) =>
+  s.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").replace(/\*\*/g, "");
+
 export function Faq({ items }: { items: FaqType[] }) {
   if (!items.length) return null;
 
@@ -11,7 +15,7 @@ export function Faq({ items }: { items: FaqType[] }) {
     mainEntity: items.map((f) => ({
       "@type": "Question",
       name: f.q,
-      acceptedAnswer: { "@type": "Answer", text: f.a },
+      acceptedAnswer: { "@type": "Answer", text: toPlain(f.a) },
     })),
   };
 

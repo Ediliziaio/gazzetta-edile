@@ -30,6 +30,7 @@ import { vmcVentilazione } from "./vmc-ventilazione-meccanica";
 import { materialiDaCostruzioneGuida } from "./materiali-da-costruzione-guida";
 import { calcestruzzoTipi } from "./calcestruzzo-tipi-caratteristiche";
 import { isolantiTermici } from "./isolanti-termici-a-confronto";
+import { vendereAlleImpreseEdili } from "./vendere-alle-imprese-edili-rivendite";
 // Tecnologie e innovazione
 import { miglioriGestionaliEdilizia } from "./migliori-gestionali-edilizia";
 import { bimEdilizia } from "./bim-edilizia-cos-e";
@@ -65,6 +66,7 @@ export const articles: Article[] = [
   materialiDaCostruzioneGuida,
   calcestruzzoTipi,
   isolantiTermici,
+  vendereAlleImpreseEdili,
   miglioriGestionaliEdilizia,
   bimEdilizia,
   casaDomotica,
