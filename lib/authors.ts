@@ -30,6 +30,13 @@ export const AUTHORS: Record<string, Author> = {
     bio: "Geometra con esperienza in pratiche edilizie e detrazioni fiscali. Cura le guide su ristrutturazioni, permessi e incentivi.",
     sameAs: [],
   },
+  "armando-rossi": {
+    id: "armando-rossi",
+    name: "Avv. Armando Rossi",
+    role: "Avvocato del Foro di Napoli",
+    bio: "Avvocato del Foro di Napoli, si occupa di diritto dell’edilizia e degli appalti privati. Assiste imprese di costruzioni, artigiani e committenti in materia di contratti d’appalto, recupero crediti, difetti costruttivi e contenzioso di cantiere. Scrive su edilizialegale.it.",
+    sameAs: [],
+  },
 };
 
 export function getAuthor(id: string): Author {
