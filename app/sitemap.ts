@@ -5,7 +5,12 @@ import { getAllArticles } from "@/lib/content";
 import { AUTHORS } from "@/lib/authors";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  const articles = getAllArticles();
+  const newest = (dates: string[]) => {
+    const timestamps = dates.map(date => Date.parse(date)).filter(Number.isFinite);
+    return timestamps.length ? new Date(Math.max(...timestamps)) : undefined;
+  };
+  const latestArticle = newest(articles.map(article => article.updatedAt));
 
   const staticPages = [
     "",
@@ -14,18 +19,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contatti",
     "/pubblicita",
     "/mappa",
-    "/privacy",
-    "/cookie-policy",
   ].map((p) => ({
     url: `${baseUrl}${p}`,
-    lastModified: now,
+    // Fixed institutional pages have no declared review date: omit lastmod
+    // rather than presenting every deploy as an editorial update.
+    lastModified: p === "" || p === "/mappa" ? latestArticle : undefined,
     changeFrequency: "weekly" as const,
     priority: p === "" ? 1 : 0.5,
   }));
 
   const categoryPages = CATEGORIES.map((c) => ({
     url: `${baseUrl}/${c.slug}`,
-    lastModified: now,
+    lastModified: newest(articles.filter(article => article.category === c.slug).map(article => article.updatedAt)),
     changeFrequency: "daily" as const,
     priority: 0.8,
   }));
@@ -33,13 +38,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Pagine autore: rafforzano l'E-E-A-T e vanno indicizzate.
   const authorPages = Object.keys(AUTHORS).map((id) => ({
     url: `${baseUrl}/autori/${id}`,
-    lastModified: now,
+    lastModified: newest(articles.filter(article => article.author === id).map(article => article.updatedAt)),
     changeFrequency: "monthly" as const,
     priority: 0.5,
   }));
 
   // Articoli con immagine (image sitemap: aiuta Google Images e la scoperta).
-  const articlePages = getAllArticles().map((a) => ({
+  const articlePages = articles.map((a) => ({
     url: `${baseUrl}/${a.category}/${a.slug}`,
     lastModified: new Date(a.updatedAt),
     changeFrequency: "monthly" as const,

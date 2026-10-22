@@ -23,7 +23,7 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "*", allow: "/" },
       ...aiBots.map((ua) => ({ userAgent: ua, allow: "/" })),
     ],
-    sitemap: `${baseUrl}/sitemap.xml`,
+    sitemap: [`${baseUrl}/sitemap.xml`, `${baseUrl}/sitemap-editorial.xml`],
     host: baseUrl,
   };
 }
