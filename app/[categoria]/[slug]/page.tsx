@@ -88,6 +88,7 @@ export default async function ArticlePage({
     "@context": "https://schema.org",
     "@type": a.schemaType,
     mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl(path) },
+    ...(a.sponsor ? { sponsor: { "@type": "Organization", name: a.sponsor } } : {}),
     headline: a.title,
     description: a.metaDescription,
     image: [absoluteUrl(a.cover.src)],

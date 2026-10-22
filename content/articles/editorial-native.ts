@@ -4,14 +4,14 @@ export const editorialNative: Article[] = [
     "slug": "impianto-elettrico-appartamento-scheda-stanza",
     "category": "impianti",
     "title": "Impianto elettrico: prepara la casa stanza per stanza",
-    "metaTitle": "Impianto elettrico: prepara la casa stanza per stanza",
+    "metaTitle": "Impianto elettrico: preparare una scheda stanza per stanza",
     "metaDescription": "Una scheda ambiente per chiedere il preventivo dell’impianto elettrico: arredi, usi, prese, luci e predisposizioni, da condividere con il progettista.",
     "abstract": "Prima di contare i punti elettrici, definisci arredi e attività di ogni ambiente. Una scheda per stanza permette al professionista di progettare e all’impresa di quotare una richiesta chiara; non sostituisce il progetto né le verifiche di sicurezza.",
     "keywordPrimary": "progettare impianto elettrico casa",
     "keywordsSecondary": [],
     "author": "redazione",
     "publishedAt": "2026-10-22T07:18:01Z",
-    "updatedAt": "2026-10-22T07:18:01Z",
+    "updatedAt": "2026-10-22T08:54:30Z",
     "cover": {
       "src": "/editorial-assets/impianto-elettrico-appartamento-scheda-stanza.webp",
       "alt": "Planimetria illustrativa con segnaposto colorati per discutere gli usi degli ambienti"
@@ -28,9 +28,20 @@ export const editorialNative: Article[] = [
       {
         "q": "Perché non confrontare solo il costo per punto?",
         "a": "Perché il perimetro delle lavorazioni e dei componenti può cambiare da un’offerta all’altra."
+      },
+      {
+        "q": "La scheda delle stanze sostituisce il progetto dell'impianto?",
+        "a": "No. Organizza gli usi e le preferenze del committente. Le soluzioni tecniche, le verifiche e la documentazione pertinente rimangono attività distinte."
+      },
+      {
+        "q": "Se cambio un arredo devo aggiornare la scheda?",
+        "a": "Segnala i cambiamenti che possono interessare le decisioni del progetto. Chiedi quali punti vadano rivalutati prima delle attività che dipendono dalla disposizione."
       }
     ],
-    "related": [],
+    "related": [
+      "impianto-elettrico-casa",
+      "casa-domotica-guida"
+    ],
     "pillar": false,
     "schemaType": "Article",
     "body": [
@@ -134,6 +145,24 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "h2",
+        "id": "approfondimento-0",
+        "text": "Aggiungere gli usi quotidiani alla pianta"
+      },
+      {
+        "type": "p",
+        "text": "Per ogni ambiente annota quali attività prevedi e dove saranno gli arredi principali. Tieni distinti gli elementi già decisi dalle possibilità ancora aperte. La scheda non deve fissare da sola quantità o soluzioni tecniche: aiuta il professionista a discutere le esigenze senza ricostruirle da richieste generiche. Se un locale avrà più funzioni, come studio e camera ospiti, descrivi entrambe e indica quando si presenteranno. Il progetto potrà così riferirsi a una situazione d'uso riconoscibile."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-2",
+        "text": "Una revisione finale prima delle lavorazioni dipendenti"
+      },
+      {
+        "type": "p",
+        "text": "Riprendi la scheda quando cambiano arredi o utilizzi e chiedi quali decisioni debbano essere riconsiderate prima di procedere. Dopo la consegna conserva elaborati e documenti ricevuti insieme alle istruzioni pertinenti. Le fotografie disponibili dei lavori possono aiutare a ricordare il contesto, ma non sostituiscono la documentazione tecnica né autorizzano interventi fai da te. L'obiettivo organizzativo è poter spiegare in futuro quale esigenza o quale parte dell'impianto richieda un chiarimento, senza affidarsi soltanto alla memoria."
+      },
+      {
+        "type": "h2",
         "id": "fonti",
         "text": "Fonti e riferimenti"
       },
@@ -143,6 +172,18 @@ export const editorialNative: Article[] = [
           "[CEI — Pubblicazione della nona edizione CEI 64-8](https://www.ceinorme.it/pubblicata-la-nuova-edizione-della-norma-cei-64-8/)",
           "[Normattiva — D.M. 37/2008](https://www.normattiva.it/eli/stato/DECRETO/2008/01/22/37)"
         ]
+      },
+      {
+        "type": "h2",
+        "id": "letture-correlate",
+        "text": "Approfondimenti nella testata"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Impianto elettrico di casa: norme, schema e costi 2026](/impianti/impianto-elettrico-casa)",
+          "[Casa domotica: cosa si può automatizzare e quanto costa](/tecnologie-e-innovazione/casa-domotica-guida)"
+        ]
       }
     ],
     "sponsor": null
@@ -151,20 +192,36 @@ export const editorialNative: Article[] = [
     "slug": "renova-solution-la-climatizzazione-continua-dopo-linstallazione",
     "category": "impianti",
     "title": "Renova Solution: la climatizzazione continua dopo l’installazione",
-    "metaTitle": "Renova Solution: la climatizzazione continua dopo l’installazion",
+    "metaTitle": "Renova Solution: climatizzazione e manutenzione",
     "metaDescription": "Comandi, istruzioni e riferimenti: come valutare il servizio di climatizzazione Renova Solution pensando anche all’utilizzo quotidiano.",
     "abstract": "Una proposta per il comfort domestico va letta anche dal punto di vista di chi userà l’impianto. La consegna è il momento in cui il progetto entra nella vita della casa.",
     "keywordPrimary": "Renova Solution: la climatizzazione continua dopo l’installazione",
     "keywordsSecondary": [],
     "author": "redazione",
     "publishedAt": "2026-10-22T07:18:01Z",
-    "updatedAt": "2026-10-22T07:18:01Z",
+    "updatedAt": "2026-10-22T08:54:30Z",
     "cover": {
       "src": "/editorial-assets/renova-solution.webp",
       "alt": "Casa illustrativa con serramenti e pannelli solari, non un progetto documentato di Renova Solution"
     },
-    "faq": [],
-    "related": [],
+    "faq": [
+      {
+        "q": "Devo usare un'app per gestire la climatizzazione?",
+        "a": "Dipende dalla soluzione proposta. Chiedi quali comandi sono previsti, come funzionano e quali modalità rimangono disponibili nelle condizioni d'uso descritte dal fornitore."
+      },
+      {
+        "q": "Posso fare da solo la manutenzione?",
+        "a": "Segui soltanto le operazioni per l'utilizzatore indicate nelle istruzioni. Distinguile dai controlli o interventi riservati a personale competente, senza dedurre procedure da consigli generici."
+      },
+      {
+        "q": "Cosa comunico quando chiedo assistenza?",
+        "a": "Identifica l'apparecchio, descrivi il comportamento e indica le condizioni in cui si presenta. Aggiungi eventuali messaggi mostrati e documenti pertinenti, evitando tentativi di riparazione."
+      }
+    ],
+    "related": [
+      "pompe-di-calore-guida",
+      "vmc-ventilazione-meccanica"
+    ],
     "pillar": false,
     "schemaType": "Article",
     "body": [
@@ -221,12 +278,81 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "h2",
+        "id": "approfondimento-0",
+        "text": "La consegna deve lasciare un impianto comprensibile"
+      },
+      {
+        "type": "p",
+        "text": "Alla prima spiegazione dei comandi, usa le situazioni della tua casa: rientro dal lavoro, uso di una sola stanza, periodo di assenza. Chiedi come effettuare queste operazioni sulla configurazione consegnata, invece di limitarti a seguire una dimostrazione generica. Se più persone utilizzeranno il sistema, valuta chi deve ricevere le istruzioni. La climatizzazione è tra i servizi presentati da Renova Solution; caratteristiche e modalità d'assistenza vanno però chiarite nella proposta concreta."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-2",
+        "text": "Organizzare i documenti per ritrovarli"
+      },
+      {
+        "type": "p",
+        "text": "Conserva identificativi dei componenti, manuali ricevuti, documenti di consegna e riferimenti per l'assistenza. Una fotografia leggibile dell'etichetta può aiutare a identificare un apparecchio, ma non sostituisce la documentazione. Tieni separati i documenti dell'impianto dalle istruzioni di eventuali applicazioni, perché l'accesso a un account non dimostra di possedere tutte le informazioni del sistema. La cartella deve rimanere utilizzabile anche se cambia il telefono o la persona che gestisce la casa."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Informazione",
+          "Perché conservarla"
+        ],
+        "rows": [
+          [
+            "Identificativo del componente",
+            "Permette di descrivere quale apparecchio richiede attenzione"
+          ],
+          [
+            "Manuale e istruzioni",
+            "Riferimento per le operazioni consentite all'utilizzatore"
+          ],
+          [
+            "Storico degli interventi",
+            "Aiuta a ricostruire cosa è stato controllato o modificato"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-5",
+        "text": "Descrivere un problema senza tentare riparazioni"
+      },
+      {
+        "type": "p",
+        "text": "Quando qualcosa non funziona come previsto, annota stanza, momento, impostazione e comportamento osservato. Se compare un messaggio, riportalo fedelmente. Dire «non va» rende più difficile preparare il confronto; dire «il problema si presenta in questa condizione» offre un contesto. Non aprire componenti o intervenire sulle parti dell'impianto per completare la descrizione. Le operazioni dell'utilizzatore restano quelle indicate nelle istruzioni; gli interventi tecnici vanno affidati a personale competente."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-7",
+        "text": "Chiarire la manutenzione nella configurazione reale"
+      },
+      {
+        "type": "p",
+        "text": "Non assumere che tutti i sistemi abbiano gli stessi controlli o lo stesso calendario. Chiedi quali indicazioni riguardino i componenti installati, quali attività siano a carico dell'utilizzatore e come richiedere gli interventi professionali. Se una prestazione viene proposta come assistenza o manutenzione, verifica come è descritta e con quale perimetro. Il risultato cercato è un piano leggibile, legato alla soluzione consegnata, senza attribuire automaticamente all'azienda servizi o disponibilità non concordati."
+      },
+      {
+        "type": "h2",
         "id": "informazioni-azienda",
         "text": "Informazioni e contatti"
       },
       {
         "type": "p",
         "text": "[Approfondisci la climatizzazione Renova Solution](https://www.renovasolution.it/climatizzazione \"sponsored\")"
+      },
+      {
+        "type": "h2",
+        "id": "letture-correlate",
+        "text": "Approfondimenti nella testata"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Pompe di calore: come funzionano, costi e quando convengono](/efficienza-energetica/pompe-di-calore-guida)",
+          "[VMC: ventilazione meccanica controllata, come funziona e costi](/impianti/vmc-ventilazione-meccanica)"
+        ]
       }
     ],
     "sponsor": "Renova Solution"
@@ -235,20 +361,36 @@ export const editorialNative: Article[] = [
     "slug": "innovasol-scegliere-il-riscaldamento-a-partire-dallimmobile-esistente",
     "category": "impianti",
     "title": "Innovasol: scegliere il riscaldamento a partire dall’immobile esistente",
-    "metaTitle": "Innovasol: scegliere il riscaldamento a partire dall’immobile es",
+    "metaTitle": "Innovasol: riscaldamento e impianto esistente",
     "metaDescription": "Documenti, ambienti e obiettivi: una traccia per conoscere la proposta di riscaldamento Innovasol senza scegliere prima la tecnologia.",
     "abstract": "Il nome della tecnologia arriva dopo la lettura della casa. Descrivere la situazione attuale aiuta a formulare una richiesta che il professionista possa verificare.",
     "keywordPrimary": "Innovasol: scegliere il riscaldamento a partire dall’immobile esistente",
     "keywordsSecondary": [],
     "author": "redazione",
     "publishedAt": "2026-10-22T07:18:01Z",
-    "updatedAt": "2026-10-22T07:18:01Z",
+    "updatedAt": "2026-10-22T08:54:30Z",
     "cover": {
       "src": "/editorial-assets/innovasol.webp",
       "alt": "Abitazione mediterranea illustrativa con solare e climatizzazione, non un impianto reale di Innovasol"
     },
-    "faq": [],
-    "related": [],
+    "faq": [
+      {
+        "q": "Devo sapere già quale sistema voglio installare?",
+        "a": "Puoi arrivare con esigenze e preferenze, distinguendole dalla soluzione tecnica. La descrizione dell'immobile e dell'impianto attuale serve proprio a valutare le alternative pertinenti."
+      },
+      {
+        "q": "Un locale freddo dimostra che il generatore è da sostituire?",
+        "a": "L'osservazione da sola non identifica la causa. Riporta condizioni e comportamento al professionista, senza ricavare una diagnosi o intervenire sull'impianto."
+      },
+      {
+        "q": "Come confronto due proposte per il riscaldamento?",
+        "a": "Chiedi che si riferiscano alle stesse esigenze, alle stesse parti dell'immobile e a un perimetro riconoscibile di attività e componenti. Le ipotesi devono essere esplicite."
+      }
+    ],
+    "related": [
+      "caldaia-o-pompa-di-calore",
+      "pompe-di-calore-guida"
+    ],
     "pillar": false,
     "schemaType": "Article",
     "body": [
@@ -305,12 +447,81 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "h2",
+        "id": "approfondimento-0",
+        "text": "La descrizione dell'esistente precede la proposta"
+      },
+      {
+        "type": "p",
+        "text": "Prima di parlare di sostituzione, identifica come viene riscaldato l'immobile e quali sistemi o componenti vengono utilizzati nelle diverse stanze. Raccogli documenti, identificativi e informazioni accessibili senza intervenire sulle parti tecniche. Una stessa abitazione può avere situazioni differenti tra ambienti o parti aggiunte in tempi diversi. Questa descrizione non è una diagnosi: aiuta a capire quali verifiche servano per discutere con Innovasol il servizio di riscaldamento presentato sul sito dell'azienda."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-2",
+        "text": "Distinguere il disagio osservato dalla causa ipotizzata"
+      },
+      {
+        "type": "p",
+        "text": "Annota dove e quando compare il problema: un ambiente poco utilizzato, una stanza con abitudini diverse, una difficoltà nell'uso dei comandi. Evita di trasformare subito l'osservazione nella conclusione che un determinato componente debba essere cambiato. Presentare sia il comportamento sia l'ipotesi come due informazioni separate permette al confronto tecnico di valutarle. Se sono previsti lavori sull'involucro o modifiche agli ambienti, aggiungi anche quel contesto."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Informazione",
+          "Come raccoglierla"
+        ],
+        "rows": [
+          [
+            "Sistema attuale",
+            "Documenti e identificativi disponibili"
+          ],
+          [
+            "Utilizzo degli ambienti",
+            "Orari e differenze tra i locali"
+          ],
+          [
+            "Problema osservato",
+            "Condizione, momento e comportamento"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-5",
+        "text": "Leggere una soluzione come insieme di parti"
+      },
+      {
+        "type": "p",
+        "text": "Una proposta per il riscaldamento non si esaurisce nel nome della tecnologia. Chiedi quali componenti e collegamenti comprende, come si rapporta alle parti mantenute e quali attività richiedano altri interlocutori. Mantieni distinte le verifiche già effettuate da quelle previste in seguito. Nel confronto tra alternative, usa le stesse esigenze e lo stesso perimetro dell'immobile: altrimenti una differenza di risultato potrebbe dipendere da ipotesi diverse, non dalla sola soluzione proposta."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-7",
+        "text": "Pensare anche a chi utilizzerà il sistema"
+      },
+      {
+        "type": "p",
+        "text": "Prima di approvare, discuti come verranno gestite le situazioni abituali della casa e quali istruzioni accompagneranno la consegna. Se più persone utilizzano i comandi, considera come rendere le informazioni disponibili a tutti. Identifica anche dove conservare documenti e riferimenti per l'assistenza. La comprensibilità della gestione è parte del confronto: un elenco di funzioni ha poco valore se non riesci a collegarlo alle operazioni che dovrai svolgere nella quotidianità."
+      },
+      {
+        "type": "h2",
         "id": "informazioni-azienda",
         "text": "Informazioni e contatti"
       },
       {
         "type": "p",
         "text": "[Conosci il riscaldamento proposto da Innovasol](https://innovasol.it/impianti-riscaldamento-sicilia/ \"sponsored\")"
+      },
+      {
+        "type": "h2",
+        "id": "letture-correlate",
+        "text": "Approfondimenti nella testata"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Caldaia a condensazione o pompa di calore: quale conviene](/efficienza-energetica/caldaia-o-pompa-di-calore)",
+          "[Pompe di calore: come funzionano, costi e quando convengono](/efficienza-energetica/pompe-di-calore-guida)"
+        ]
       }
     ],
     "sponsor": "Innovasol"
@@ -319,20 +530,36 @@ export const editorialNative: Article[] = [
     "slug": "green-energy-group-una-mappa-delle-scelte-energetiche-per-la-casa",
     "category": "efficienza-energetica",
     "title": "Green Energy Group: una mappa delle scelte energetiche per la casa",
-    "metaTitle": "Green Energy Group: una mappa delle scelte energetiche per la ca",
+    "metaTitle": "Green Energy Group: una mappa energetica della casa",
     "metaDescription": "Fotovoltaico, accumulo e nuovi utilizzi elettrici: come organizzare le priorità prima di conoscere le soluzioni Green Energy Group.",
     "abstract": "La casa può cambiare per fasi. Una mappa delle decisioni aiuta a distinguere il sistema desiderato oggi dalle funzioni che vuoi soltanto valutare per domani.",
     "keywordPrimary": "Green Energy Group: una mappa delle scelte energetiche per la casa",
     "keywordsSecondary": [],
     "author": "redazione",
     "publishedAt": "2026-10-22T07:18:01Z",
-    "updatedAt": "2026-10-22T07:18:01Z",
+    "updatedAt": "2026-10-22T08:54:30Z",
     "cover": {
       "src": "/editorial-assets/green-energy-group.webp",
       "alt": "Casa illustrativa con fotovoltaico, accumulo e ricarica, non una realizzazione documentata di Green Energy Group"
     },
-    "faq": [],
-    "related": [],
+    "faq": [
+      {
+        "q": "Devo scegliere tutti gli impianti contemporaneamente?",
+        "a": "No. Puoi definire priorità e tempi differenti, chiedendo però quali interfacce debbano essere considerate prima di eseguire le attività che potrebbero limitarne le alternative."
+      },
+      {
+        "q": "La mappa energetica è un progetto tecnico?",
+        "a": "Qui è una scheda organizzativa delle esigenze e delle informazioni disponibili. Il progetto e le verifiche pertinenti rimangono attività distinte, da svolgere nel percorso dell'intervento."
+      },
+      {
+        "q": "Come confronto scenari diversi?",
+        "a": "Usa la stessa descrizione dell'immobile e mantieni riconoscibili le ipotesi di ciascuna alternativa. Non sommare risultati o funzioni di configurazioni che non sono state proposte come un unico insieme."
+      }
+    ],
+    "related": [
+      "pannelli-solari-guida",
+      "caldaia-o-pompa-di-calore"
+    ],
     "pillar": false,
     "schemaType": "Article",
     "body": [
@@ -389,12 +616,81 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "h2",
+        "id": "approfondimento-0",
+        "text": "Disegnare gli utilizzi prima di scegliere le soluzioni"
+      },
+      {
+        "type": "p",
+        "text": "Su una pianta o una lista di ambienti, annota quali servizi utilizza la famiglia e in quali momenti: elettricità, riscaldamento, raffrescamento ed eventuale ricarica. Non attribuire subito una tecnologia a ogni richiesta. La mappa deve descrivere il funzionamento della casa, includendo ciò che desideri mantenere. Green Energy Group presenta più famiglie di soluzioni energetiche: il confronto diventa più utile quando gli obiettivi sono distinti e possono essere valutati rispetto a un quadro comune."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-2",
+        "text": "Le decisioni hanno tempi diversi"
+      },
+      {
+        "type": "p",
+        "text": "Se stai ristrutturando, separa le scelte che devono essere chiuse prima delle lavorazioni da quelle che possono essere approfondite successivamente. Per ogni intervento ipotizzato chiedi quali dipendenze crei rispetto agli altri. Predisporre una discussione non significa ordinare tutto subito. Significa evitare che una scelta venga approvata senza conoscere il suo rapporto con passaggi, spazi o utilizzi già previsti. Mantieni inoltre distinte le intenzioni generiche dalle decisioni effettivamente approvate."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Livello della mappa",
+          "Contenuto"
+        ],
+        "rows": [
+          [
+            "Esistente",
+            "Sistemi e documenti disponibili"
+          ],
+          [
+            "Priorità",
+            "Esigenze da affrontare per prime"
+          ],
+          [
+            "Scenario futuro",
+            "Possibilità non ancora approvate"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-5",
+        "text": "Usare gli scenari per capire, non per sommare risultati"
+      },
+      {
+        "type": "p",
+        "text": "Quando vengono illustrate più alternative, chiedi quale insieme di condizioni descriva ciascuna. Un risultato riferito a una configurazione non dovrebbe essere sommato a quello di un'alternativa incompatibile. Riporta gli elementi mantenuti e quelli sostituiti e identifica le domande che rimangono aperte. Il confronto tra scenari dovrebbe permettere di capire cosa cambia nella casa e perché una soluzione venga presa in considerazione, senza trasformare la presentazione di un servizio in una promessa individuale."
+      },
+      {
+        "type": "h2",
+        "id": "approfondimento-7",
+        "text": "Un fascicolo unico con documenti separati per sistema"
+      },
+      {
+        "type": "p",
+        "text": "Conserva una vista d'insieme del progetto e, al suo interno, cartelle riconoscibili per i diversi impianti. Ogni cartella può contenere proposta approvata, identificativi, istruzioni e riferimenti. La separazione rende più semplice preparare una richiesta successiva, mentre la mappa generale aiuta a ricordare le interfacce. È un'organizzazione pratica per il proprietario: non sostituisce la documentazione tecnica e non attribuisce all'azienda prestazioni o attività che non siano indicate nella proposta concreta."
+      },
+      {
+        "type": "h2",
         "id": "informazioni-azienda",
         "text": "Informazioni e contatti"
       },
       {
         "type": "p",
         "text": "[Esplora le soluzioni per la casa Green Energy Group](https://greenenergygroup.it/ \"sponsored\")"
+      },
+      {
+        "type": "h2",
+        "id": "letture-correlate",
+        "text": "Approfondimenti nella testata"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Pannelli solari: guida completa 2026 (costi, incentivi, come funzionano)](/efficienza-energetica/pannelli-solari-guida)",
+          "[Caldaia a condensazione o pompa di calore: quale conviene](/efficienza-energetica/caldaia-o-pompa-di-calore)"
+        ]
       }
     ],
     "sponsor": "Green Energy Group"
