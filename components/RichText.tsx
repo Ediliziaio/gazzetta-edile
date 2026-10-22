@@ -22,7 +22,7 @@ function renderLinks(text: string): ReactNode {
     if (m) {
       const [, label, href, title] = m;
       const external = href.startsWith("http");
-      const rel = title === "sponsored" ? "sponsored noopener" : "noopener noreferrer";
+      const rel = title === "sponsored" ? "sponsored nofollow noopener noreferrer" : "noopener noreferrer";
       return external ? (
         <a key={i} href={href} target="_blank" rel={rel}>
           {label}

@@ -33,7 +33,7 @@ export function Header() {
 
   return (
     <header className="relative z-50">
-      <nav aria-label="Guide e speciali" style={{display:"flex",justifyContent:"center",flexWrap:"wrap",gap:"20px",padding:"8px 16px",background:"#f5f5f2",color:"#263c42",fontSize:"13px",borderBottom:"1px solid #dce1df"}}><a href="/guide-pratiche">Guide pratiche</a><a href="/speciali-aziende">Speciali aziende · contenuti sponsorizzati</a></nav>
+
       {/* Barra di servizio */}
       <div className="bg-charcoal text-white">
         <div className="container-ge flex h-9 items-center justify-between text-[0.72rem]">

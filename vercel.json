@@ -1,0 +1,34 @@
+{
+  "redirects": [
+    {
+      "source": "/guide-pratiche/impianto-elettrico-appartamento-scheda-stanza",
+      "destination": "/impianti/impianto-elettrico-appartamento-scheda-stanza",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/renova-solution-la-climatizzazione-continua-dopo-linstallazione",
+      "destination": "/impianti/renova-solution-la-climatizzazione-continua-dopo-linstallazione",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/innovasol-scegliere-il-riscaldamento-a-partire-dallimmobile-esistente",
+      "destination": "/impianti/innovasol-scegliere-il-riscaldamento-a-partire-dallimmobile-esistente",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende/green-energy-group-una-mappa-delle-scelte-energetiche-per-la-casa",
+      "destination": "/efficienza-energetica/green-energy-group-una-mappa-delle-scelte-energetiche-per-la-casa",
+      "permanent": true
+    },
+    {
+      "source": "/guide-pratiche",
+      "destination": "/impianti",
+      "permanent": true
+    },
+    {
+      "source": "/speciali-aziende",
+      "destination": "/impianti",
+      "permanent": true
+    }
+  ]
+}

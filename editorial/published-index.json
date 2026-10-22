@@ -2,8 +2,8 @@
   {
     "title": "Impianto elettrico: prepara la casa stanza per stanza",
     "description": "Una scheda ambiente per chiedere il preventivo dell’impianto elettrico: arredi, usi, prese, luci e predisposizioni, da condividere con il progettista.",
-    "path": "/guide-pratiche/impianto-elettrico-appartamento-scheda-stanza",
-    "section": "guide-pratiche",
+    "path": "/impianti/impianto-elettrico-appartamento-scheda-stanza",
+    "section": "native",
     "slug": "impianto-elettrico-appartamento-scheda-stanza",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/impianto-elettrico-appartamento-scheda-stanza.webp",
@@ -11,13 +11,15 @@
     "sourceURLs": [
       "https://www.ceinorme.it/pubblicata-la-nuova-edizione-della-norma-cei-64-8/",
       "https://www.normattiva.it/eli/stato/DECRETO/2008/01/22/37"
-    ]
+    ],
+    "previousPath": "/guide-pratiche/impianto-elettrico-appartamento-scheda-stanza",
+    "category": "impianti"
   },
   {
     "title": "Renova Solution: la climatizzazione continua dopo l’installazione",
     "description": "Comandi, istruzioni e riferimenti: come valutare il servizio di climatizzazione Renova Solution pensando anche all’utilizzo quotidiano.",
-    "path": "/speciali-aziende/renova-solution-la-climatizzazione-continua-dopo-linstallazione",
-    "section": "speciali-aziende",
+    "path": "/impianti/renova-solution-la-climatizzazione-continua-dopo-linstallazione",
+    "section": "native",
     "slug": "renova-solution-la-climatizzazione-continua-dopo-linstallazione",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/renova-solution.webp",
@@ -25,13 +27,15 @@
     "sourceURLs": [
       "https://www.renovasolution.it/",
       "https://www.renovasolution.it/climatizzazione"
-    ]
+    ],
+    "previousPath": "/speciali-aziende/renova-solution-la-climatizzazione-continua-dopo-linstallazione",
+    "category": "impianti"
   },
   {
     "title": "Innovasol: scegliere il riscaldamento a partire dall’immobile esistente",
     "description": "Documenti, ambienti e obiettivi: una traccia per conoscere la proposta di riscaldamento Innovasol senza scegliere prima la tecnologia.",
-    "path": "/speciali-aziende/innovasol-scegliere-il-riscaldamento-a-partire-dallimmobile-esistente",
-    "section": "speciali-aziende",
+    "path": "/impianti/innovasol-scegliere-il-riscaldamento-a-partire-dallimmobile-esistente",
+    "section": "native",
     "slug": "innovasol-scegliere-il-riscaldamento-a-partire-dallimmobile-esistente",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/innovasol.webp",
@@ -39,19 +43,23 @@
     "sourceURLs": [
       "https://innovasol.it/",
       "https://innovasol.it/impianti-riscaldamento-sicilia/"
-    ]
+    ],
+    "previousPath": "/speciali-aziende/innovasol-scegliere-il-riscaldamento-a-partire-dallimmobile-esistente",
+    "category": "impianti"
   },
   {
     "title": "Green Energy Group: una mappa delle scelte energetiche per la casa",
     "description": "Fotovoltaico, accumulo e nuovi utilizzi elettrici: come organizzare le priorità prima di conoscere le soluzioni Green Energy Group.",
-    "path": "/speciali-aziende/green-energy-group-una-mappa-delle-scelte-energetiche-per-la-casa",
-    "section": "speciali-aziende",
+    "path": "/efficienza-energetica/green-energy-group-una-mappa-delle-scelte-energetiche-per-la-casa",
+    "section": "native",
     "slug": "green-energy-group-una-mappa-delle-scelte-energetiche-per-la-casa",
     "publishedAt": "2026-10-22T07:18:01Z",
     "image": "/editorial-assets/green-energy-group.webp",
     "sponsor": "Green Energy Group",
     "sourceURLs": [
       "https://greenenergygroup.it/"
-    ]
+    ],
+    "previousPath": "/speciali-aziende/green-energy-group-una-mappa-delle-scelte-energetiche-per-la-casa",
+    "category": "efficienza-energetica"
   }
 ]

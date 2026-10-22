@@ -21,6 +21,8 @@ export interface Faq {
 }
 
 export interface Article {
+  /** Paid editorial feature; always visibly disclosed. */
+  sponsor?: string | null;
   slug: string;
   category: string; // category slug
   title: string; // H1

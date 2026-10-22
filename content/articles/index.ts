@@ -1,3 +1,4 @@
+import { editorialNative } from "./editorial-native";
 import type { Article } from "@/lib/content";
 // Efficienza energetica
 import { pannelliSolariGuida } from "./pannelli-solari-guida";
@@ -42,6 +43,7 @@ import { sicurezzaCantiere } from "./sicurezza-cantiere-psc-pos";
 
 // Registro di tutti gli articoli. Aggiungere qui ogni nuovo articolo.
 export const articles: Article[] = [
+  ...editorialNative,
   pannelliSolariGuida,
   impiantoFotovoltaicoCosti,
   cappottoTermicoGuida,

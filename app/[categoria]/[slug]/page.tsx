@@ -124,6 +124,7 @@ export default async function ArticlePage({
 
           <header className="mt-4">
             <p className="kicker">{cat.name}</p>
+            {a.sponsor && <p className="my-3 font-sans text-xs font-bold uppercase tracking-wide" role="note">Contenuto sponsorizzato · {a.sponsor}</p>}
             <h1 className="mt-2 font-head text-3xl font-bold leading-tight text-charcoal sm:text-[2.6rem]">
               {a.title}
             </h1>

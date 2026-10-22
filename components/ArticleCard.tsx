@@ -64,7 +64,8 @@ export function ArticleCard({
       </div>
       <div className="flex flex-col gap-2 pt-4">
         {!isHero && <span className="kicker">{cat?.name}</span>}
-        <h3
+        {article.sponsor && <p className="mb-1 font-sans text-[10px] font-bold uppercase tracking-wide">Contenuto sponsorizzato · {article.sponsor}</p>}
+          <h3
           className={`card-title font-serif font-semibold leading-[1.08] text-charcoal ${
             isHero ? "text-[2rem] sm:text-[2.6rem]" : "text-[1.28rem]"
           }`}
