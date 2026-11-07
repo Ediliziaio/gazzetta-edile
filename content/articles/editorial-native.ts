@@ -1,5 +1,230 @@
 import type { Article } from "@/lib/content";
 export const editorialNative: Article[] = [
+{
+  "slug": "gres-porcellanato-scheda-campione-posa",
+  "title": "Gres porcellanato: leggere scheda tecnica, campione e confezione prima della posa",
+  "metaTitle": "Gres porcellanato: scheda, campione e posa",
+  "metaDescription": "Gres porcellanato: formato, finitura, tono e calibro nella scelta della fornitura. Come preparare una scheda chiara con progettista e posatore.",
+  "category": "materiali-da-costruzione",
+  "abstract": "Gres porcellanato: formato, finitura, tono e calibro nella scelta della fornitura. Come preparare una scheda chiara con progettista e posatore.",
+  "keywordPrimary": "gres porcellanato scheda tecnica",
+  "keywordsSecondary": [
+    "tono calibro gres",
+    "campione piastrelle"
+  ],
+  "author": "redazione",
+  "publishedAt": "2026-11-07T08:00:00+01:00",
+  "updatedAt": "2026-11-07T08:00:00+01:00",
+  "cover": {
+    "src": "/editorial-assets/gres-porcellanato-scheda-campione-posa.webp",
+    "alt": "Schema illustrativo: Gres porcellanato: scheda, campione e posa"
+  },
+  "faq": [
+    {
+      "q": "Una fotografia del campione basta per ordinare?",
+      "a": "No. È utile come riferimento visivo, ma servono codice, formato, finitura e documenti pertinenti. La foto non descrive automaticamente tutte le caratteristiche della fornitura."
+    },
+    {
+      "q": "Devo conservare le etichette delle confezioni?",
+      "a": "È utile mantenerne un riferimento leggibile collegato alla consegna e alle verifiche previste. Chiedi a fornitore e posatore quali informazioni servono per il prodotto scelto."
+    },
+    {
+      "q": "Posso cambiare formato senza aggiornare il progetto?",
+      "a": "La modifica va segnalata a chi segue progetto e posa. Occorre verificarne gli effetti invece di considerarla automaticamente equivalente alla scelta precedente."
+    }
+  ],
+  "related": [
+    "materiali-da-costruzione-guida"
+  ],
+  "pillar": false,
+  "schemaType": "Article",
+  "body": [
+    {
+      "type": "p",
+      "text": "Scegliere un gres porcellanato non significa soltanto riconoscere un colore gradevole. Fra campione, scheda tecnica, ordine e confezioni consegnate passano informazioni che devono rimanere collegate. Formato, finitura, identificativo del prodotto e indicazioni sulla fornitura aiutano progettista, rivenditore e posatore a discutere dello stesso materiale."
+    },
+    {
+      "type": "p",
+      "text": "Questa guida propone un fascicolo di scelta e controllo documentale. Non prescrive una soluzione di posa né certifica l’idoneità di un prodotto a un ambiente specifico. Le prestazioni richieste, il supporto e il sistema di installazione vanno valutati dai professionisti coinvolti."
+    },
+    {
+      "type": "h2",
+      "text": "Partire dall’ambiente e dall’uso previsto",
+      "id": "partire-dall-ambiente-e-dall-uso-previsto"
+    },
+    {
+      "type": "p",
+      "text": "Prima di confrontare le collezioni, descrivi dove verrà utilizzato il materiale e quali esigenze deve soddisfare. Interno ed esterno, parete e pavimento, ambiente domestico e spazio con utilizzo diverso richiedono domande pertinenti. Il nome commerciale di una serie non risolve da solo queste verifiche."
+    },
+    {
+      "type": "p",
+      "text": "Raccogli gli elementi del progetto: superfici, raccordi, quote e lavorazioni previste. Non utilizzare la sola superficie dell’ambiente come ordine definitivo di acquisto. Il fabbisogno dipende anche dal disegno di posa e dalle valutazioni del soggetto che lo prepara."
+    },
+    {
+      "type": "p",
+      "text": "Individua chi conferma la scelta tecnica e chi raccoglie i documenti. Se ogni interlocutore conserva una versione diversa, diventa difficile riconoscere quale materiale sia stato effettivamente selezionato e su quali condizioni si basi la decisione."
+    },
+    {
+      "type": "h2",
+      "text": "Identificare esattamente il prodotto",
+      "id": "identificare-esattamente-il-prodotto"
+    },
+    {
+      "type": "p",
+      "text": "Riporta produttore, serie, codice articolo, formato e finitura. Se esistono varianti simili, non affidarti alla sola fotografia del catalogo. Il campione deve essere associato al codice corretto, così può essere confrontato con l’ordine e con i documenti della consegna."
+    },
+    {
+      "type": "p",
+      "text": "Annota anche la versione della scheda tecnica e la provenienza del campione. Una foto salvata senza riferimento può essere utile per discutere un’idea estetica, ma non descrive in modo completo ciò che verrà acquistato."
+    },
+    {
+      "type": "p",
+      "text": "Chiedi al rivenditore di evidenziare eventuali differenze fra il prodotto visto e quello quotato. Una proposta alternativa può essere valida, ma deve essere riconoscibile come tale e sottoposta alla stessa verifica della prima scelta."
+    },
+    {
+      "type": "h2",
+      "text": "Leggere la scheda con una domanda precisa",
+      "id": "leggere-la-scheda-con-una-domanda-precisa"
+    },
+    {
+      "type": "p",
+      "text": "La scheda tecnica va letta rispetto all’impiego previsto. Cerca quali caratteristiche sono dichiarate e quali documenti le descrivono. Se un parametro non ti è chiaro, chiedi al progettista o al produttore come interpretarlo per il tuo ambiente, senza trasformare una sigla in un giudizio generico di qualità."
+    },
+    {
+      "type": "p",
+      "text": "Non ricavare una destinazione d’uso soltanto dall’aspetto del materiale. Due superfici visivamente simili possono avere caratteristiche dichiarate differenti. Il confronto estetico e quello tecnico devono restare collegati, ma non sono intercambiabili."
+    },
+    {
+      "type": "p",
+      "text": "La sezione [materiali da costruzione](/materiali-da-costruzione) offre altri percorsi di lettura. Per scegliere una fornitura concreta, conserva però i documenti del codice specifico: un articolo editoriale non sostituisce la scheda del prodotto."
+    },
+    {
+      "type": "h2",
+      "text": "Tono, calibro e confezioni",
+      "id": "tono-calibro-e-confezioni"
+    },
+    {
+      "type": "p",
+      "text": "Le informazioni presenti sulle confezioni aiutano a identificare la fornitura. Nelle [FAQ del produttore Ceramica Cavallino](https://www.ceramicacavallino.it/f-a-q/) sono richiamati tono e calibro come elementi da considerare nella lettura dei prodotti ceramici. Verifica con rivenditore e posatore come controllare la consegna del materiale scelto."
+    },
+    {
+      "type": "p",
+      "text": "Il punto operativo è mantenere la corrispondenza fra ordine e confezioni. Fotografa le etichette in modo leggibile e collega le immagini al documento di consegna. Non eliminare i riferimenti prima che siano state eseguite le verifiche previste dagli operatori coinvolti."
+    },
+    {
+      "type": "p",
+      "text": "Se emergono differenze fra scatole o documenti, segnala il punto al fornitore e al responsabile della posa prima di interpretarlo autonomamente. Non tutte le differenze hanno lo stesso significato; serve una risposta riferita al prodotto e alla fornitura effettiva."
+    },
+    {
+      "type": "h2",
+      "text": "Il campione come parte del fascicolo",
+      "id": "il-campione-come-parte-del-fascicolo"
+    },
+    {
+      "type": "p",
+      "text": "Un campione è utile se il suo ruolo è chiaro. Può sostenere la scelta estetica, il confronto fra finiture e il dialogo con gli altri materiali dell’ambiente. Non presumere che una singola piastrella mostri ogni variazione prevista per una collezione."
+    },
+    {
+      "type": "p",
+      "text": "Chiedi quali informazioni descrivono l’aspetto della serie e come valutare una composizione rappresentativa. Se vengono presentate immagini di ambienti, distingui fotografie, rendering e campioni fisici. La decisione deve rendere comprensibile che cosa è stato osservato e approvato."
+    },
+    {
+      "type": "p",
+      "text": "Conserva una nota con data, codice e soggetti che hanno partecipato alla scelta. Non serve trasformare ogni preferenza in un verbale complesso; basta evitare che, mesi dopo, il riferimento sia soltanto “quello chiaro visto in negozio”."
+    },
+    {
+      "type": "h2",
+      "text": "Una tabella da condividere prima dell’ordine",
+      "id": "una-tabella-da-condividere-prima-dell-ordine"
+    },
+    {
+      "type": "p",
+      "text": "La scheda comune deve raccogliere i riferimenti senza duplicare in modo incompleto i documenti tecnici. Inserisci collegamenti o nomi dei file e specifica quali campi restano da confermare."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Area",
+        "Dato da raccogliere",
+        "Chi coinvolgere"
+      ],
+      "rows": [
+        [
+          "Impiego",
+          "Ambiente e utilizzo previsto",
+          "Progettista"
+        ],
+        [
+          "Identificazione",
+          "Produttore, serie e codice",
+          "Rivenditore"
+        ],
+        [
+          "Aspetto",
+          "Finitura e campione visto",
+          "Committente e progettista"
+        ],
+        [
+          "Quantità",
+          "Base e disegno utilizzati",
+          "Tecnico e posatore"
+        ],
+        [
+          "Consegna",
+          "Documenti ed etichette",
+          "Fornitore e ricevente"
+        ],
+        [
+          "Posa",
+          "Riferimenti del sistema previsto",
+          "Progettista e posatore"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "La tabella non stabilisce automaticamente le responsabilità contrattuali. Serve a preparare il dialogo e a riconoscere chi possiede l’informazione necessaria, mantenendo separati ruoli organizzativi e obblighi da verificare nei documenti del progetto."
+    },
+    {
+      "type": "h2",
+      "text": "Un esempio illustrativo di controllo",
+      "id": "un-esempio-illustrativo-di-controllo"
+    },
+    {
+      "type": "p",
+      "text": "Immagina di aver scelto una serie con un formato e una finitura precisi. L’offerta riporta il nome della collezione, ma omette il codice articolo. Prima di confermare l’acquisto, la richiesta utile è completare l’identificazione e collegarla al campione, non dedurre il codice dalla fotografia."
+    },
+    {
+      "type": "p",
+      "text": "Alla consegna, conserva il riferimento delle confezioni e confrontalo con la documentazione. Se compare un’informazione che non riconosci, chiedi un chiarimento. Il metodo non richiede al committente di valutare da solo la conformità tecnica: gli permette di presentare una domanda circostanziata."
+    },
+    {
+      "type": "p",
+      "text": "L’esempio non descrive un difetto reale e non attribuisce conseguenze a una specifica marca. Mostra come una lacuna documentale possa essere chiusa prima di diventare una discussione basata su ricordi diversi."
+    },
+    {
+      "type": "h2",
+      "text": "Coordinare il materiale con il progetto di posa",
+      "id": "coordinare-il-materiale-con-il-progetto-di-posa"
+    },
+    {
+      "type": "p",
+      "text": "Prima dell’avvio, verifica che chi esegue la posa disponga dei documenti pertinenti e del progetto aggiornato. Supporto, disposizione, raccordi e dettagli non devono essere ricostruiti soltanto dal materiale consegnato in cantiere."
+    },
+    {
+      "type": "p",
+      "text": "Se cambia il formato o la finitura, segnala la modifica a chi segue il progetto. Non considerarla necessariamente una sostituzione neutra: occorre verificare se incide sulle scelte già definite. Le conseguenze tecniche devono essere valutate dai soggetti competenti."
+    },
+    {
+      "type": "p",
+      "text": "Per organizzare il controllo puoi partire dalla [guida ai materiali da costruzione](/materiali-da-costruzione/materiali-da-costruzione-guida), mantenendo il fascicolo della tua fornitura come riferimento operativo. L’obiettivo finale è semplice: campione, ordine, consegna e progetto devono poter essere riconosciuti come parti dello stesso percorso."
+    },
+    {
+      "type": "p",
+      "text": "Prima di confermare l’ordine, fai rileggere il riepilogo a chi seguirà la posa. Chiedi di evidenziare le informazioni ancora necessarie, senza colmare le caselle con supposizioni. La verifica condivisa aiuta a riconoscere eventuali differenze fra scelta estetica, documento commerciale e soluzione progettata, quando è ancora possibile chiedere un chiarimento al fornitore."
+    }
+  ]
+},
   {
     "slug": "impianto-elettrico-appartamento-scheda-stanza",
     "category": "impianti",
