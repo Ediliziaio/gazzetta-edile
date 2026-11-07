@@ -38,7 +38,7 @@ export async function generateMetadata({
   if (!a) return {};
   const path = `/${a.category}/${a.slug}`;
   return {
-    title: a.metaTitle,
+    title: a.metaTitle.includes(SITE.name) ? { absolute: a.metaTitle } : a.metaTitle,
     description: a.metaDescription,
     keywords: [a.keywordPrimary, ...a.keywordsSecondary],
     alternates: { canonical: path },

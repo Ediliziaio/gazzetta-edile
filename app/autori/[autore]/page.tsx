@@ -23,7 +23,7 @@ export async function generateMetadata({
   const a = AUTHORS[autore];
   if (!a) return {};
   return {
-    title: `${a.name} — ${a.role}`,
+    title: a.name.includes(SITE.name) ? { absolute: `${a.name} — ${a.role}` } : `${a.name} — ${a.role}`,
     description: `${a.name}, ${a.role}. Articoli e guide firmate per ${SITE.name}.`,
     alternates: { canonical: `/autori/${a.id}` },
     openGraph: {
