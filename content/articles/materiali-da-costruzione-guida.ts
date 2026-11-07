@@ -45,6 +45,7 @@ export const materialiDaCostruzioneGuida: Article = {
     },
   ],
   body: [
+{"type": "p", "text": "Per i rivestimenti ceramici, collega scelta estetica e identificazione della fornitura: campione, codice, formato e documenti devono riferirsi allo stesso prodotto. La guida al [gres porcellanato: scheda, campione e posa](/materiali-da-costruzione/gres-porcellanato-scheda-campione-posa) propone una scheda da condividere con progettista, rivenditore e posatore prima dell’ordine."},
     {
       type: "p",
       text: "I **materiali da costruzione** sono il punto di partenza di ogni intervento edilizio: dalla struttura portante fino alle finiture, la loro scelta determina solidità, comfort, durata e costo dell'opera. Conoscere i principali materiali — quelli tradizionali e le soluzioni innovative — aiuta imprese e committenti a fare scelte consapevoli. In questa guida vediamo quali sono i materiali più usati nel 2026, le loro caratteristiche, gli impieghi tipici, i prezzi orientativi e i criteri per sceglierli.",
