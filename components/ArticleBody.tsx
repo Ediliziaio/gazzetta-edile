@@ -11,7 +11,7 @@ export function ArticleBody({ blocks }: { blocks: Block[] }) {
   );
 
   return (
-    <div className="prose-ge">
+    <div data-editorial-body className="prose-ge">
       {blocks.map((b, i) => (
         <div key={i}>
           {renderBlock(b)}

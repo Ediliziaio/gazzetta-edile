@@ -9,3 +9,4 @@ next-env.d.ts
 *.tsbuildinfo
 .vercel
 /editorial/drafts/
+.editorial-length-report.json
