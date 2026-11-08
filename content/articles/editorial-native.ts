@@ -1,6 +1,226 @@
 import type { Article } from "@/lib/content";
 export const editorialNative: Article[] = [
 {
+  "slug": "pittura-interni-resa-supporto-scheda-tecnica",
+  "title": "Pittura per interni: confrontare resa, supporto e scheda tecnica",
+  "metaTitle": "Pittura interni: resa, supporto e scheda tecnica",
+  "metaDescription": "Confronta pitture per interni leggendo resa dichiarata, supporti e condizioni. Un esempio di stima e una scheda da discutere con il professionista.",
+  "category": "materiali-da-costruzione",
+  "abstract": "Confronta pitture per interni leggendo resa dichiarata, supporti e condizioni. Un esempio di stima e una scheda da discutere con il professionista.",
+  "keywordPrimary": "pittura interni",
+  "keywordsSecondary": [
+    "resa pittura",
+    "supporto pittura interni"
+  ],
+  "author": "redazione",
+  "publishedAt": "2026-11-08",
+  "updatedAt": "2026-11-08",
+  "cover": {
+    "src": "/editorial-assets/pittura-interni-resa-supporto-scheda-tecnica.webp",
+    "alt": "Schema illustrativo: Pittura interni: resa, supporto e scheda tecnica"
+  },
+  "faq": [
+    {
+      "q": "La resa indicata permette di comprare subito la quantità esatta?",
+      "a": "Serve prima verificare a quali condizioni si riferisca e come si colleghi al supporto e al sistema previsto. Un calcolo aritmetico non sostituisce la valutazione del lavoro reale."
+    },
+    {
+      "q": "Due confezioni dello stesso volume sono direttamente confrontabili?",
+      "a": "Non dal solo volume. Occorre identificare prodotto, resa, condizioni dichiarate e attività comprese nel trattamento, mantenendo una base omogenea."
+    },
+    {
+      "q": "Posso scegliere il ciclo soltanto dal nome della stanza?",
+      "a": "Il nome dell’ambiente non descrive tutte le condizioni della superficie e dell’impiego. Porta le informazioni al professionista e verifica la documentazione pertinente al prodotto proposto."
+    }
+  ],
+  "related": [
+    "materiali-da-costruzione-guida"
+  ],
+  "pillar": false,
+  "schemaType": "Article",
+  "body": [
+    {
+      "type": "p",
+      "text": "Due pitture per interni possono avere un prezzo simile per confezione e richiedere quantità o lavorazioni differenti. Per confrontarle serve leggere il prodotto insieme a supporto, resa dichiarata e condizioni della scheda tecnica. Il costo del contenitore non descrive da solo il trattamento previsto per una superficie."
+    },
+    {
+      "type": "p",
+      "text": "Questa guida aiuta a preparare il confronto con rivenditore e professionista. Non prescrive un ciclo applicativo per ogni parete. L’esempio numerico è illustrativo: serve a capire il rapporto fra superficie, resa e numero di mani, lasciando la valutazione del supporto e della soluzione ai referenti competenti."
+    },
+    {
+      "type": "h2",
+      "text": "Identificare il prodotto completo",
+      "id": "identificare-il-prodotto-completo"
+    },
+    {
+      "type": "p",
+      "text": "Registra produttore, denominazione, codice e versione della scheda tecnica. Il nome di una famiglia commerciale può comprendere prodotti differenti. Una fotografia del barattolo o una descrizione generica come “lavabile” non identificano necessariamente la configurazione proposta."
+    },
+    {
+      "type": "p",
+      "text": "Associa la documentazione alla finitura e alla formulazione effettivamente considerate. Se ricevi un’alternativa, mantienila separata dalla proposta iniziale e chiedi quali caratteristiche cambino. Il confronto deve rimanere ricostruibile anche quando i nomi sembrano simili."
+    },
+    {
+      "type": "p",
+      "text": "Conserva i riferimenti del rivenditore e i documenti utilizzati per la scelta. Il fascicolo non deve essere complesso, ma deve permettere di recuperare la scheda corretta invece di cercare nuovamente il prodotto online dopo l’acquisto."
+    },
+    {
+      "type": "h2",
+      "text": "Il supporto viene prima del calcolo dei litri",
+      "id": "il-supporto-viene-prima-del-calcolo-dei-litri"
+    },
+    {
+      "type": "p",
+      "text": "Descrivi al professionista quali superfici devono essere trattate e quali informazioni sono disponibili sul loro stato. Non attribuire a una fotografia il valore di una diagnosi. Una superficie apparentemente uniforme può richiedere verifiche o preparazioni che non emergono da un’immagine."
+    },
+    {
+      "type": "p",
+      "text": "Chiedi quali condizioni del supporto debbano essere considerate nella scelta. Il prodotto va letto insieme alle indicazioni pertinenti della scheda e al progetto del lavoro. Non sostituire questo passaggio con una regola generica basata soltanto sul nome della stanza."
+    },
+    {
+      "type": "p",
+      "text": "Se sono previsti interventi preliminari, devono essere riconoscibili nell’offerta. Preparazione, eventuale fondo e finitura sono parti da chiarire, non componenti da dare per comprese perché il totale viene presentato al metro quadrato."
+    },
+    {
+      "type": "h2",
+      "text": "Che cosa significa la resa dichiarata",
+      "id": "che-cosa-significa-la-resa-dichiarata"
+    },
+    {
+      "type": "p",
+      "text": "La resa deve essere associata alle condizioni indicate dal produttore. Cerca l’unità, il riferimento alla mano applicata e le informazioni sul supporto. Una cifra estratta dalla scheda può perdere significato se viene separata da queste note."
+    },
+    {
+      "type": "p",
+      "text": "Per esempio, la [scheda tecnica CapaDIN edizione 2025 di Caparol](https://www.caparol.it/caparol_pim_import/caparol_it/products/ti/299824/TI_ST_CapaDIN_ed.2025_IT.pdf) accompagna i valori di consumo con indicazioni sulle superfici e chiarisce che il risultato può variare secondo supporto e modalità di applicazione, richiedendo una prova per determinarlo. Il riferimento serve a mostrare come leggere una scheda, non a raccomandare quel prodotto per qualsiasi ambiente."
+    },
+    {
+      "type": "p",
+      "text": "Quando confronti due pitture, chiedi se i valori siano espressi su basi omogenee. Una resa per mano e un’informazione riferita a un ciclo completo non devono essere trattate come numeri equivalenti senza chiarimento."
+    },
+    {
+      "type": "h2",
+      "text": "Un esempio illustrativo di quantità",
+      "id": "un-esempio-illustrativo-di-quantit"
+    },
+    {
+      "type": "p",
+      "text": "Immagina una superficie di riferimento di 60 metri quadrati e una resa ipotetica di 8 metri quadrati per litro per mano. Il calcolo aritmetico per una mano è 60 diviso 8, cioè 7,5 litri. Per due mani, mantenendo quelle stesse ipotesi, il risultato è 15 litri."
+    },
+    {
+      "type": "p",
+      "text": "Non è una quantità da applicare automaticamente al tuo lavoro. L’esempio non considera condizioni del supporto, dettagli geometrici, lavorazioni preliminari o altre variabili che il professionista deve valutare. Non utilizza inoltre un valore attribuito a un prodotto reale."
+    },
+    {
+      "type": "p",
+      "text": "La tabella aiuta a distinguere le informazioni necessarie al calcolo. Prima dell’acquisto, fai confermare superficie, sistema previsto e ipotesi utilizzate, invece di aggiungere una percentuale standard senza un motivo riferito al caso."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Dato illustrativo",
+        "Valore",
+        "Ruolo nel calcolo"
+      ],
+      "rows": [
+        [
+          "Superficie di riferimento",
+          "60 metri quadrati",
+          "Base da verificare"
+        ],
+        [
+          "Resa ipotizzata",
+          "8 metri quadrati per litro per mano",
+          "Condizione dell’esempio"
+        ],
+        [
+          "Quantità per una mano",
+          "7,5 litri",
+          "Superficie divisa per resa"
+        ],
+        [
+          "Numero di mani ipotizzato",
+          "2",
+          "Parte dello scenario"
+        ],
+        [
+          "Quantità aritmetica",
+          "15 litri",
+          "Risultato delle sole ipotesi indicate"
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Leggere le prestazioni con la domanda giusta",
+      "id": "leggere-le-prestazioni-con-la-domanda-giusta"
+    },
+    {
+      "type": "p",
+      "text": "Una scheda può riportare classificazioni e caratteristiche diverse. Prima di attribuire un giudizio, chiedi quale esigenza del progetto debba essere soddisfatta e quale dato la descriva. Non trasformare una singola classe in una graduatoria generale della qualità."
+    },
+    {
+      "type": "p",
+      "text": "Mantieni la terminologia della documentazione quando prepari il confronto. Se abbrevi un’informazione, conserva il riferimento completo in una nota. Chi verifica deve poter capire quale parametro fosse stato effettivamente considerato."
+    },
+    {
+      "type": "p",
+      "text": "La [guida ai materiali da costruzione](/materiali-da-costruzione/materiali-da-costruzione-guida) offre un percorso di orientamento sulle scelte dei prodotti. Per una pittura specifica restano necessari il documento pertinente e la valutazione dell’impiego previsto."
+    },
+    {
+      "type": "h2",
+      "text": "Campione, colore e risultato atteso",
+      "id": "campione-colore-e-risultato-atteso"
+    },
+    {
+      "type": "p",
+      "text": "Il campione aiuta a discutere l’aspetto desiderato, ma va collegato a codice, finitura e documentazione. Distingui un’immagine a schermo da un campione fisico o da una prova eseguita nelle condizioni del lavoro. Non sono osservazioni equivalenti."
+    },
+    {
+      "type": "p",
+      "text": "Chiedi come verrà valutato il risultato estetico e quali riferimenti saranno utilizzati nella scelta. Una descrizione come “bianco uguale a prima” può essere insufficiente se gli interlocutori immaginano condizioni diverse. Il chiarimento va cercato prima di trasformare una preferenza in un ordine."
+    },
+    {
+      "type": "p",
+      "text": "Se vengono raccolte fotografie della prova, indica luogo e condizioni di osservazione. Le immagini possono accompagnare il fascicolo, ma non devono sostituire il confronto previsto sul posto o far sembrare identiche superfici riprese in situazioni differenti."
+    },
+    {
+      "type": "h2",
+      "text": "Confrontare il lavoro completo",
+      "id": "confrontare-il-lavoro-completo"
+    },
+    {
+      "type": "p",
+      "text": "Per leggere due offerte, rendi riconoscibili superfici, preparazioni, prodotti e attività accessorie. Il prezzo del materiale è una parte del confronto. Se le proposte prevedono cicli o perimetri diversi, chiedi che la differenza sia descritta prima di confrontare i totali."
+    },
+    {
+      "type": "p",
+      "text": "Usa gli stati compreso, escluso e da chiarire. Una voce assente non equivale automaticamente a una prestazione inclusa. Se un’attività necessaria appartiene a un altro incarico, collega il relativo riferimento nell’organizzazione del lavoro."
+    },
+    {
+      "type": "p",
+      "text": "Lo stesso metodo documentale è utile per altre finiture, come nella guida al [gres porcellanato fra scheda e campione](/materiali-da-costruzione/gres-porcellanato-scheda-campione-posa). L’obiettivo è mantenere una corrispondenza fra scelta, documenti e fornitura effettiva."
+    },
+    {
+      "type": "h2",
+      "text": "Preparare le domande prima dell’acquisto",
+      "id": "preparare-le-domande-prima-dell-acquisto"
+    },
+    {
+      "type": "p",
+      "text": "Porta al referente una descrizione delle superfici, i documenti disponibili e le alternative che desideri confrontare. Chiedi quali informazioni manchino per definire il sistema e come sia stata valutata la quantità. Una domanda precisa rende più utile la risposta del fornitore."
+    },
+    {
+      "type": "p",
+      "text": "Conserva una tabella finale con prodotto, versione della scheda e riferimento della proposta. Se cambia una scelta, aggiorna il fascicolo mantenendo riconoscibile la precedente. Il file utilizzato per l’ordine deve corrispondere alla configurazione effettivamente confermata."
+    },
+    {
+      "type": "p",
+      "text": "Per approfondire altri percorsi di scelta puoi consultare la sezione [materiali da costruzione](/materiali-da-costruzione). Mantieni i dati del lavoro concreto al centro della decisione, usando le guide editoriali per preparare domande e verifiche pertinenti."
+    }
+  ]
+},
+{
   "slug": "gres-porcellanato-scheda-campione-posa",
   "title": "Gres porcellanato: leggere scheda tecnica, campione e confezione prima della posa",
   "metaTitle": "Gres porcellanato: scheda, campione e posa",
