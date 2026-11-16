@@ -335,6 +335,7 @@ export const editorialNative: Article[] = [
       }
     ],
     "related": [
+      "battiscopa-pavimento-raccordi-scelta",
       "materiali-da-costruzione-guida"
     ],
     "pillar": false,

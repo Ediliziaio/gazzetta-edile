@@ -1,3 +1,4 @@
+import nuovaGuida from "./battiscopa-pavimento-raccordi-scelta";
 import { editorialNative } from "./editorial-native";
 import type { Article } from "@/lib/content";
 // Efficienza energetica
@@ -43,6 +44,7 @@ import { sicurezzaCantiere } from "./sicurezza-cantiere-psc-pos";
 
 // Registro di tutti gli articoli. Aggiungere qui ogni nuovo articolo.
 export const articles: Article[] = [
+  nuovaGuida,
   ...editorialNative,
   pannelliSolariGuida,
   impiantoFotovoltaicoCosti,
