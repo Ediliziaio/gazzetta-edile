@@ -1,0 +1,21 @@
+{
+  "title": "Materiali: proprietà, impiego e documenti",
+  "intro": "Prima di scegliere un materiale, confronta prestazioni dichiarate, supporto e condizioni di utilizzo. Questi percorsi collegano il confronto generale alle informazioni da raccogliere per una fornitura concreta.",
+  "links": [
+    {
+      "href": "/materiali-da-costruzione/isolanti-termici-a-confronto",
+      "title": "Confrontare gli isolanti",
+      "description": "Leggi caratteristiche e ambiti di impiego, verificando la scheda del prodotto proposto."
+    },
+    {
+      "href": "/materiali-da-costruzione/calcestruzzo-tipi-caratteristiche",
+      "title": "Capire il calcestruzzo",
+      "description": "Distingui tipologie e caratteristiche prima di collegarle a una specifica lavorazione."
+    },
+    {
+      "href": "/materiali-da-costruzione/gres-porcellanato-scheda-campione-posa",
+      "title": "Dal campione di gres alla posa",
+      "description": "Raccogli riferimenti di prodotto, supporto e posa con la scheda dedicata."
+    }
+  ]
+}
