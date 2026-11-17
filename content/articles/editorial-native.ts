@@ -1,6 +1,283 @@
 import type { Article } from "@/lib/content";
 export const editorialNative: Article[] = [
   {
+    "slug": "adesivi-piastrelle-supporto-formato-scheda",
+    "title": "Adesivi per piastrelle: supporto, formato e scheda tecnica",
+    "metaTitle": "Adesivi per piastrelle: leggere la scheda tecnica",
+    "metaDescription": "Confronta adesivi per piastrelle, supporto e formato. Domande per il posatore, lettura della scheda tecnica e modello CSV prima dell’ordine.",
+    "category": "materiali-da-costruzione",
+    "abstract": "Per confrontare gli adesivi per piastrelle occorre descrivere il rivestimento da posare, il supporto e le condizioni del lavoro. Il nome commerciale e il prezzo della confezione non bastano. Una scheda di confronto utile collega il prodotto proposto alla sua scheda tecnica, alle verifiche sul fondo e alle attività comprese nella posa, indicando le domande ancora aperte.",
+    "keywordPrimary": "adesivi per piastrelle",
+    "keywordsSecondary": [
+      "scheda tecnica adesivo",
+      "confronto prodotti posa"
+    ],
+    "author": "redazione",
+    "publishedAt": "2026-11-17",
+    "updatedAt": "2026-11-17",
+    "cover": {
+      "src": "/editorial-assets/adesivi-piastrelle-supporto-formato-scheda.webp",
+      "alt": "Scena illustrativa generata con IA: piastrella, adesivo senza marchio e spatola su un banco"
+    },
+    "faq": [
+      {
+        "q": "Il prezzo del sacco basta per scegliere l’adesivo?",
+        "a": "No. Occorre collegare il prodotto a rivestimento, supporto, condizioni di impiego e attività comprese nella proposta, con le verifiche del professionista."
+      },
+      {
+        "q": "Posso usare il consumo online per ordinare la quantità definitiva?",
+        "a": "Una stima deve riferirsi alle condizioni del lavoro e alle indicazioni pertinenti del prodotto. Chiedi al posatore come viene costruita e quali verifiche mancano."
+      },
+      {
+        "q": "La scheda scaricabile indica come posare le piastrelle?",
+        "a": "No. Organizza codici, documenti e domande per confrontare le offerte con gli interlocutori competenti; non contiene istruzioni di installazione."
+      }
+    ],
+    "related": [
+      "gres-porcellanato-scheda-campione-posa",
+      "battiscopa-pavimento-raccordi-scelta",
+      "pittura-interni-resa-supporto-scheda-tecnica"
+    ],
+    "pillar": false,
+    "schemaType": "Article",
+    "body": [
+      {
+        "type": "h2",
+        "id": "la-scelta-comincia-dal-lavoro-prima-del-sacco",
+        "text": "La scelta comincia dal lavoro, prima del sacco"
+      },
+      {
+        "type": "p",
+        "text": "Per confrontare gli adesivi per piastrelle occorre descrivere il rivestimento da posare, il supporto e le condizioni del lavoro. Il nome commerciale e il prezzo della confezione non bastano. Una scheda di confronto utile collega il prodotto proposto alla sua scheda tecnica, alle verifiche sul fondo e alle attività comprese nella posa, indicando le domande ancora aperte."
+      },
+      {
+        "type": "p",
+        "text": "Chi acquista le piastrelle incontra spesso l'adesivo soltanto alla fine, quando il materiale è già stato ordinato. È proprio allora che possono emergere incompatibilità fra aspettative estetiche, fondo disponibile e sistema di posa proposto. Questo articolo aiuta a preparare il confronto con progettista, rivenditore e posatore: non assegna un prodotto a distanza e non offre una ricetta di installazione valida per ogni superficie."
+      },
+      {
+        "type": "p",
+        "text": "La domanda iniziale è concreta: quale lavorazione deve rendere possibile questa fornitura? Un pavimento interno sopra uno strato esistente, un rivestimento nuovo e una superficie esterna non descrivono la stessa situazione. Scrivere poche righe sul contesto permette di leggere le indicazioni del produttore con uno scopo preciso e di riconoscere quali informazioni mancano ancora, prima di discutere quantità e ordine dei materiali."
+      },
+      {
+        "type": "h2",
+        "id": "identificare-la-piastrella-senza-fermarsi-al-colore",
+        "text": "Identificare la piastrella senza fermarsi al colore"
+      },
+      {
+        "type": "p",
+        "text": "Conserva il codice completo della piastrella, il nome della serie, il formato e lo spessore indicati dal produttore. Aggiungi una fotografia del retro e il riferimento alla documentazione disponibile. La descrizione generica “gres chiaro” può bastare per parlare di abbinamenti cromatici, ma non identifica il materiale per il quale viene valutato il sistema di posa. Anche una variante della stessa collezione merita un riferimento riconoscibile."
+      },
+      {
+        "type": "p",
+        "text": "Nel confronto commerciale tieni separati formato nominale, quantità da acquistare e disposizione desiderata. Non trasformare un disegno di posa in un calcolo definitivo del consumo di adesivo. Il materiale da ordinare dipende anche dal fondo e dalle condizioni applicative pertinenti; sono informazioni che il posatore deve valutare. Segnala invece eventuali vincoli: raccordo con un pavimento esistente, soglie, porte e finiture già scelte."
+      },
+      {
+        "type": "p",
+        "text": "Un campione fisico è utile per osservare la superficie e chiarire il risultato atteso, ma non sostituisce la documentazione del prodotto consegnato. Associa sempre il campione al codice dell'ordine. Per impostare questo passaggio puoi leggere anche la guida su [gres porcellanato, scheda tecnica e campione](https://www.gazzettaedile.it/materiali-da-costruzione/gres-porcellanato-scheda-campione-posa): aiuta a distinguere scelta del rivestimento, verifica dei dati e decisioni da affidare a chi segue il lavoro."
+      },
+      {
+        "type": "h2",
+        "id": "descrivere-il-supporto-e-indicare-cio-che-non-si-conosce",
+        "text": "Descrivere il supporto e indicare ciò che non si conosce"
+      },
+      {
+        "type": "p",
+        "text": "Il supporto va descritto per quanto risulta dai documenti e dal sopralluogo, senza attribuirgli caratteristiche presunte. Annota se si tratta di un nuovo strato da realizzare, di una superficie esistente o di una situazione ancora da accertare. Scrivi chi ha fornito l'informazione e a quale ambiente si riferisce. Una descrizione con limiti espliciti è più utile di una diagnosi improvvisata formulata guardando una fotografia."
+      },
+      {
+        "type": "p",
+        "text": "Quando la proposta menziona preparazione, pulizia, primer o regolarizzazione, chiedi quali operazioni siano previste nel caso concreto e con quale riferimento tecnico. Non sono parole intercambiabili. Una voce economica unica può nascondere attività diverse, oppure limitarsi a un fondo che si presume già pronto. Fai indicare quali condizioni devono essere confermate prima di considerare valida la proposta, compreso l'eventuale bisogno di ulteriori verifiche professionali."
+      },
+      {
+        "type": "p",
+        "text": "Evita di usare l'adesivo come spiegazione universale di ogni problema del fondo. La scelta del prodotto e la valutazione della superficie si collegano, ma restano passaggi distinguibili. Se vengono osservate fessure, distacchi o altre anomalie, registrale fra i temi da esaminare con il tecnico competente. Non assegnare soluzioni né aprire o rimuovere parti per conto tuo soltanto per completare la scheda di confronto."
+      },
+      {
+        "type": "h2",
+        "id": "trovare-la-scheda-del-prodotto-realmente-proposto",
+        "text": "Trovare la scheda del prodotto realmente proposto"
+      },
+      {
+        "type": "p",
+        "text": "Chiedi la scheda tecnica ufficiale corrispondente al nome e alla versione del prodotto offerto. Salva il documento, il collegamento da cui è stato scaricato e la data della consultazione. Una fotografia della confezione può aiutare a riconoscere il prodotto, mentre un volantino della gamma può riguardare più materiali con impieghi differenti. La conferma deve riferirsi alla proposta concreta, non a una famiglia commerciale genericamente simile."
+      },
+      {
+        "type": "p",
+        "text": "Il [manuale ufficiale Mapei per i posatori di ceramica e materiale lapideo](https://cdnmedia.mapei.com/docs/librariesprovider2/lines-technical-documentation/broch_manualeposatoriit09-24.pdf?sfvrsn=3b706b42_27) mostra, nelle informazioni dei singoli prodotti, come campi di impiego e condizioni applicative accompagnino la descrizione dell'adesivo. È un esempio di documentazione di produttore, non un confronto indipendente fra marchi. Per un altro prodotto occorre recuperare le sue indicazioni ufficiali senza trasferire automaticamente dati o raccomandazioni da questa pubblicazione."
+      },
+      {
+        "type": "p",
+        "text": "Nella lettura separa destinazioni dichiarate, limitazioni, preparazione richiesta e tempi riportati. Non copiare soltanto il passaggio che sembra confermare una scelta già fatta. Se due documenti appaiono diversi, inviali entrambi all'assistenza tecnica o al professionista che valuta il sistema, chiedendo quale sia quello pertinente. Conserva la risposta insieme alla proposta, così la scelta rimane comprensibile anche quando cambiano gli interlocutori."
+      },
+      {
+        "type": "h2",
+        "id": "interpretare-le-sigle-come-punti-da-verificare",
+        "text": "Interpretare le sigle come punti da verificare"
+      },
+      {
+        "type": "p",
+        "text": "Le sigle riportate sulla confezione possono diventare scorciatoie commerciali: un prodotto viene presentato come “più flessibile” o “più prestazionale” senza collegare l'affermazione al lavoro. Chiedi quale caratteristica dichiarata risponda al supporto, al materiale e all'impiego previsti. Non costruire una graduatoria assoluta di adesivi basata sul numero di simboli, né presumere che una classificazione renda irrilevante la preparazione del fondo."
+      },
+      {
+        "type": "p",
+        "text": "Nella scheda di confronto trascrivi la dicitura esatta del fabbricante, senza decodificarla a memoria. Accanto aggiungi una colonna con la domanda applicativa: per quale requisito del nostro intervento viene richiamata? Questo passaggio aiuta a distinguere i dati tecnici dalle formule di vendita e lascia al professionista il compito di verificarne l'adeguatezza. L'obiettivo del committente è capire la motivazione della proposta, non sostituirsi a una valutazione tecnica."
+      },
+      {
+        "type": "p",
+        "text": "Anche il colore dell'adesivo o una particolare lavorabilità possono essere oggetto di una proposta motivata. Chiedi che la motivazione sia riferita al rivestimento effettivo, mantenendo separati risultato estetico e compatibilità del sistema. Se cambia il materiale scelto, riapri la domanda invece di considerare il primo prodotto valido per definizione. Un ordine aggiornato delle piastrelle deve essere riconoscibile anche nella documentazione della posa."
+      },
+      {
+        "type": "h2",
+        "id": "tenere-distinti-i-diversi-tempi-del-lavoro",
+        "text": "Tenere distinti i diversi tempi del lavoro"
+      },
+      {
+        "type": "p",
+        "text": "In un'offerta possono comparire più tempi: preparazione, attese fra fasi, applicazione, fugatura e disponibilità degli ambienti. Non riunirli nella sola frase “si finisce in giornata”. Chiedi al posatore di descrivere quali passaggi condizionano il calendario e quali dipendono dalle verifiche sul posto. I valori della scheda di un prodotto non sono, da soli, una promessa sul giorno in cui la stanza potrà essere riutilizzata."
+      },
+      {
+        "type": "p",
+        "text": "Se un produttore indica tempi o condizioni di applicazione, conserva anche le condizioni alle quali sono riferiti. Non trasferire un valore al tuo cantiere ignorando ambiente e sistema previsto. In questa fase è utile fissare una domanda organizzativa: chi confermerà il passaggio alla lavorazione successiva? La risposta permette di programmare consegne e accessi senza trasformare il documento commerciale in un'autorizzazione tecnica a procedere."
+      },
+      {
+        "type": "p",
+        "text": "Per una casa parzialmente utilizzata, annota quali locali devono restare accessibili e quali dipendenze esistono fra lavori. Non chiedere al solo adesivo di risolvere un calendario incompatibile. Un'alternativa che cambia prodotto, organizzazione o fasi va descritta come proposta completa, con i relativi presupposti. Il calendario diventa confrontabile quando mostra attività e condizioni, non quando riporta soltanto una data finale ottimistica."
+      },
+      {
+        "type": "h2",
+        "id": "confrontare-quantita-e-confezioni-con-una-base-comune",
+        "text": "Confrontare quantità e confezioni con una base comune"
+      },
+      {
+        "type": "p",
+        "text": "Il prezzo di un sacco non coincide con il costo del sistema di posa. Per confrontare due offerte chiedi quale superficie venga considerata, quali preparazioni siano comprese e su quali ipotesi sia stimata la quantità di materiale. Mantieni separati adesivo, prodotti accessori e manodopera. Se una voce include più elementi, domandane almeno il perimetro: non serve imporre al fornitore una ripartizione inventata dei costi."
+      },
+      {
+        "type": "p",
+        "text": "Ecco un esempio soltanto illustrativo: due proposte riguardano la stessa stanza, ma la prima assume un fondo già idoneo, mentre la seconda include una preparazione specifica da confermare. Un totale diverso non dimostra che un adesivo sia più costoso o migliore. Prima bisogna allineare le attività considerate. Nell'esempio non vengono attribuiti consumi o prezzi ai prodotti, perché mancano le condizioni tecniche necessarie a una stima reale."
+      },
+      {
+        "type": "p",
+        "text": "Chiedi come saranno trattati eventuali materiali residui, integrazioni e variazioni emerse dopo le verifiche iniziali. Annota chi ordina, chi riceve e chi controlla la corrispondenza della fornitura. Le quantità definitive non dovrebbero essere ricavate da un generico consumo trovato online. Il preventivo può indicare una stima motivata e la modalità di aggiornamento, rendendo visibile ciò che resta da accertare prima dell'acquisto."
+      },
+      {
+        "type": "h2",
+        "id": "collegare-la-posa-ai-raccordi-e-alle-finiture",
+        "text": "Collegare la posa ai raccordi e alle finiture"
+      },
+      {
+        "type": "p",
+        "text": "La nuova superficie incontra battiscopa, soglie, sanitari, porte e materiali adiacenti. Per questo la discussione sull'adesivo non va isolata dal risultato finito. Prepara una lista dei punti di raccordo e chiedi quali dettagli debbano essere confermati prima di avviare la posa. Una fotografia d'insieme e una nota che identifica la zona aiutano più di una raccolta di immagini prive di riferimento al locale."
+      },
+      {
+        "type": "p",
+        "text": "Se vengono proposte modifiche per risolvere un raccordo, chiedi quali documenti o scelte vadano aggiornati. Non assegnare spessori o soluzioni costruttive attraverso la scheda commerciale: registra l'argomento e il responsabile della risposta. La guida sul [battiscopa e i raccordi con il pavimento](https://www.gazzettaedile.it/materiali-da-costruzione/battiscopa-pavimento-raccordi-scelta) offre un percorso complementare per mettere in relazione campioni, finiture e domande da affrontare insieme all'impresa."
+      },
+      {
+        "type": "p",
+        "text": "Anche la scelta delle fughe e dei prodotti di finitura deve rimanere riconoscibile nella proposta. Non dedurre dal colore visto sullo schermo il comportamento o l'aspetto della soluzione consegnata. Per il confronto preliminare bastano codice, campione pertinente e riferimento alla documentazione. Le decisioni tecniche restano collegate al sistema completo, mentre le decisioni estetiche vanno documentate con campioni e scelte approvate."
+      },
+      {
+        "type": "h2",
+        "id": "preparare-una-richiesta-di-chiarimento-che-ottenga-una-risposta",
+        "text": "Preparare una richiesta di chiarimento che ottenga una risposta"
+      },
+      {
+        "type": "p",
+        "text": "Una richiesta efficace contiene il codice della piastrella, il locale, la descrizione disponibile del supporto e la proposta ricevuta. Formula una domanda alla volta: quale verifica manca per confermare l'impiego? Quale preparazione è compresa? A quale scheda si riferisce il prodotto? Messaggi generici come “va bene questa colla?” costringono chi risponde a ricostruire il contesto e possono generare conferme riferite a ipotesi diverse."
+      },
+      {
+        "type": "p",
+        "text": "Non considerare equivalenti un parere generale, una risposta dell'assistenza sul prodotto e una valutazione del cantiere. Registra il perimetro della risposta: chi ha visto quali documenti e quali aspetti rimangono da controllare. Se viene richiesto un sopralluogo o un approfondimento, riportalo fra i passaggi necessari. In questo modo la documentazione aiuta a decidere senza trasformare una conversazione informale in una verifica mai eseguita."
+      },
+      {
+        "type": "p",
+        "text": "Quando confronti offerte alternative, invia a ciascun interlocutore lo stesso quadro informativo aggiornato. Se scopri un dato nuovo sul fondo, condividilo prima della scelta finale. Conserva le versioni superate come riferimento storico, distinguendole da quella usata per l'ordine. La chiarezza non richiede un archivio complesso: richiede che il collegamento fra piastrella, ambiente, prodotto e proposta sia riconoscibile."
+      },
+      {
+        "type": "h2",
+        "id": "controllare-la-consegna-senza-confonderla-con-l-accettazione-del-fondo",
+        "text": "Controllare la consegna senza confonderla con l'accettazione del fondo"
+      },
+      {
+        "type": "p",
+        "text": "All'arrivo dei materiali confronta nome del prodotto, riferimento dell'ordine e quantità dei colli con quanto concordato. Se chi riceve è diverso da chi ha scelto la fornitura, prepara prima un riepilogo leggibile. Un materiale apparentemente simile può appartenere a una versione diversa: fotografa la confezione e chiedi conferma prima di considerare risolta una sostituzione. La verifica della consegna riguarda la corrispondenza dell'ordine e non sostituisce i controlli applicativi del posatore."
+      },
+      {
+        "type": "p",
+        "text": "Anche le indicazioni di conservazione presenti sulla documentazione vanno rese disponibili a chi gestisce il deposito. Chiedi dove saranno custoditi i colli e come verrà mantenuta l'identificazione durante i lavori. Non indicare condizioni universali ricavate dall'esperienza con un altro materiale. Se una confezione appare danneggiata o non riconoscibile, registra l'anomalia e contatta il fornitore, evitando di decidere l'utilizzabilità sulla sola base di un esame improvvisato."
+      },
+      {
+        "type": "h2",
+        "id": "gestire-un-cambio-di-prodotto-prima-della-posa",
+        "text": "Gestire un cambio di prodotto prima della posa"
+      },
+      {
+        "type": "p",
+        "text": "Una sostituzione proposta per disponibilità commerciale dovrebbe arrivare con un nome preciso, la relativa scheda e la motivazione. Il fatto che due sacchi abbiano lo stesso peso non dimostra equivalenza d'impiego. Chiedi a chi valuta il sistema quali verifiche vadano ripetute e se cambino preparazioni, quantità o calendario. Conserva la proposta iniziale e la nuova decisione, distinguendo chiaramente il materiale che sarà utilizzato da quello soltanto preventivato."
+      },
+      {
+        "type": "p",
+        "text": "Se cambia soltanto una parte della fornitura, identifica l'ambiente interessato. In un appartamento con più locali può essere difficile ricostruire in seguito dove fosse previsto un prodotto specifico. Una riga per stanza, con ordine e conferma collegati, è spesso sufficiente a evitare ambiguità. Non trasformare il registro in un manuale di applicazione: il suo scopo è mantenere comprensibile la scelta condivisa fra fornitore, impresa e professionista."
+      },
+      {
+        "type": "h2",
+        "id": "quali-documenti-conservare-alla-chiusura",
+        "text": "Quali documenti conservare alla chiusura"
+      },
+      {
+        "type": "p",
+        "text": "Nel fascicolo finale raccogli le schede dei prodotti effettivamente impiegati e i riferimenti alle scelte del rivestimento. Associa gli ambienti ai codici e conserva gli eventuali chiarimenti sulle sostituzioni. Le fotografie possono aiutare a ricordare la sequenza del lavoro quando sono state raccolte in modo appropriato, ma non dimostrano da sole tutte le condizioni dell'installazione. Evita descrizioni che attribuiscono verifiche o prove mai svolte."
+      },
+      {
+        "type": "p",
+        "text": "Se vengono consegnate indicazioni per pulizia iniziale e utilizzo della superficie, verifica a quali materiali e fasi si riferiscano. Non estendere automaticamente una raccomandazione della piastrella ai prodotti di posa o viceversa. Un fascicolo leggibile aiuta a formulare domande anche dopo il completamento: per esempio quale finitura sia stata scelta o a quale fornitura appartenga un campione rimasto. Questa continuità documentale rende più semplice il confronto con gli interlocutori originari."
+      },
+      {
+        "type": "h2",
+        "id": "usare-la-scheda-scaricabile-prima-di-ordinare",
+        "text": "Usare la scheda scaricabile prima di ordinare"
+      },
+      {
+        "type": "p",
+        "text": "La [scheda di confronto degli adesivi per piastrelle](https://www.gazzettaedile.it/downloads/adesivi-piastrelle-supporto-formato-scheda.csv) è un modello organizzativo compilabile. Contiene campi per ambiente, rivestimento, supporto dichiarato, prodotto proposto, scheda ufficiale e chiarimenti. Lascia vuote le informazioni sconosciute e assegna a ciascuna una domanda. Non inserire consumi presunti per far tornare un totale: una casella da verificare segnala un'attività ancora utile."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Informazione",
+          "Riferimento da raccogliere"
+        ],
+        "rows": [
+          [
+            "Ambiente",
+            "Da compilare con il documento o con la domanda pertinente"
+          ],
+          [
+            "Piastrella e codice",
+            "Da compilare con il documento o con la domanda pertinente"
+          ],
+          [
+            "Formato dichiarato",
+            "Da compilare con il documento o con la domanda pertinente"
+          ],
+          [
+            "Supporto e fonte informazione",
+            "Da compilare con il documento o con la domanda pertinente"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Prima dell'ordine leggi la scheda insieme all'offerta finale e controlla che i codici coincidano. Le modifiche a piastrella, fondo o destinazione devono riaprire la verifica pertinente. Il risultato atteso è una proposta leggibile: cosa viene fornito, in quale contesto è stato valutato, quali attività accompagnano la posa e chi conferma le condizioni mancanti. Questo rende la scelta più solida del semplice confronto fra confezioni o slogan."
+      },
+      {
+        "type": "p",
+        "text": "La copertina è un'immagine originale generata con intelligenza artificiale: rappresenta campioni e strumenti a scopo illustrativo, senza documentare un cantiere o suggerire una tecnica di posa."
+      }
+    ]
+  },
+  {
     "slug": "pittura-interni-resa-supporto-scheda-tecnica",
     "title": "Pittura per interni: confrontare resa, supporto e scheda tecnica",
     "metaTitle": "Pittura interni: resa, supporto e scheda tecnica",
