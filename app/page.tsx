@@ -1,4 +1,3 @@
-import { PriorityPaths } from "@/components/PriorityPaths";
 import Link from "next/link";
 import { ArticleCard } from "@/components/ArticleCard";
 import { AdSlot } from "@/components/AdSlot";
@@ -30,8 +29,6 @@ export default function HomePage() {
         <h1 className="sr-only">
           Gazzetta Edile: materiali da costruzione a confronto
         </h1>
-
-      <PriorityPaths />
 
         {/* Apertura */}
         {hero && (
