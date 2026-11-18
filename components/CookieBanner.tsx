@@ -9,7 +9,7 @@ import {
   type ConsentChoice,
 } from "@/lib/consent";
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
+import { SITE_ANALYTICS_CONFIG } from "@/lib/analytics-config";
 export const REOPEN_EVENT = "ge:consent-reopen";
 
 /**
@@ -21,7 +21,7 @@ export function CookieBanner() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    if (!GA_ID) return;
+    if (!SITE_ANALYTICS_CONFIG.enabled) return;
     if (!readConsent()) setOpen(true);
     const reopen = () => setOpen(true);
     window.addEventListener(REOPEN_EVENT, reopen);
@@ -66,7 +66,7 @@ export function CookieBanner() {
 
 /** Link per riaprire le preferenze (footer). */
 export function CookiePreferencesLink({ className = "" }: { className?: string }) {
-  if (!GA_ID) return null;
+  if (!SITE_ANALYTICS_CONFIG.enabled) return null;
   return (
     <button
       onClick={() => window.dispatchEvent(new Event(REOPEN_EVENT))}
