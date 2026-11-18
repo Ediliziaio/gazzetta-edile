@@ -1112,10 +1112,6 @@ export const editorialNative: Article[] = [
     "body": [
       {
         "type": "p",
-        "text": "**Contenuto sponsorizzato · Renova Solution**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-      },
-      {
-        "type": "p",
         "text": "Una proposta per il comfort domestico va letta anche dal punto di vista di chi userà l’impianto. La consegna è il momento in cui il progetto entra nella vita della casa."
       },
       {
@@ -1225,7 +1221,7 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "p",
-        "text": "[Approfondisci la climatizzazione Renova Solution](https://www.renovasolution.it/climatizzazione \"sponsored\")"
+        "text": "[Richiedi informazioni a Renova Solution](https://www.renovasolution.it/contatti \"sponsored\")"
       },
       {
         "type": "h2",
@@ -1279,10 +1275,6 @@ export const editorialNative: Article[] = [
     "pillar": false,
     "schemaType": "Article",
     "body": [
-      {
-        "type": "p",
-        "text": "**Contenuto sponsorizzato · Innovasol**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-      },
       {
         "type": "p",
         "text": "Il nome della tecnologia arriva dopo la lettura della casa. Descrivere la situazione attuale aiuta a formulare una richiesta che il professionista possa verificare."
@@ -1394,7 +1386,7 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "p",
-        "text": "[Conosci il riscaldamento proposto da Innovasol](https://innovasol.it/impianti-riscaldamento-sicilia/ \"sponsored\")"
+        "text": "[Richiedi informazioni a Innovasol](https://innovasol.it/contatti/ \"sponsored\")"
       },
       {
         "type": "h2",
@@ -1448,10 +1440,6 @@ export const editorialNative: Article[] = [
     "pillar": false,
     "schemaType": "Article",
     "body": [
-      {
-        "type": "p",
-        "text": "**Contenuto sponsorizzato · Green Energy Group**. Articolo pubblicitario realizzato per presentare i servizi dell’azienda."
-      },
       {
         "type": "p",
         "text": "La casa può cambiare per fasi. Una mappa delle decisioni aiuta a distinguere il sistema desiderato oggi dalle funzioni che vuoi soltanto valutare per domani."
@@ -1563,7 +1551,7 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "p",
-        "text": "[Esplora le soluzioni per la casa Green Energy Group](https://greenenergygroup.it/ \"sponsored\")"
+        "text": "[Richiedi informazioni a Green Energy Group](https://greenenergygroup.it/contatti/ \"sponsored\")"
       },
       {
         "type": "h2",
