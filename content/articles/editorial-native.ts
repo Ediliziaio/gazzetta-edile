@@ -41,7 +41,7 @@ export const editorialNative: Article[] = [
     "body": [
       {
         "type": "p",
-        "text": "Energia Più progetta e realizza impianti per la produzione e l’utilizzo dell’energia. La sua proposta comprende fotovoltaico, accumulatori, sistemi ibridi, caldaie a condensazione, wallbox e pensiline fotovoltaiche. Il riferimento operativo è in via Stefano Breda 26 a Limena, in provincia di Padova; il sito ufficiale è energiapiu.net."
+        "text": "Energia Più progetta e installa impianti per la produzione e l’utilizzo dell’energia. La gamma comprende fotovoltaico, accumulatori, sistemi ibridi, caldaie a condensazione, wallbox e pensiline fotovoltaiche. La sede operativa è in via Stefano Breda 26 a Limena, in provincia di Padova; il contatto per informazioni è disponibile su energiapiu.net."
       },
       {
         "type": "p",
@@ -49,7 +49,7 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "p",
-        "text": "Energia Più mette a disposizione un contatto diretto per conoscere le soluzioni e avviare il confronto sull’immobile. Le indicazioni di questo articolo aiutano a comprendere il ruolo dei diversi prodotti e a impostare una prima valutazione. Gli esempi sono ipotetici e non attribuiscono all’azienda risultati economici o interventi specifici non documentati."
+        "text": "Con Energia Più si possono valutare più esigenze nello stesso intervento: un impianto fotovoltaico da installare, l’accumulo da aggiungere o il riscaldamento da rinnovare. Indicare le priorità aiuta a partire dalla funzione che serve davvero. Il confronto comprende poi gli altri prodotti utili alla casa, mantenendo distinti i lavori da eseguire subito e le possibilità future."
       },
       {
         "type": "h2",
@@ -236,7 +236,7 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "p",
-        "text": "Il [sito di Energia Più](https://www.energiapiu.net/) presenta la gamma e l’impostazione del servizio. Per passare dalla panoramica generale alla valutazione della propria casa è utile avviare il contatto diretto, descrivendo gli obiettivi e mettendo a disposizione le informazioni disponibili sull’immobile. Da questa base può iniziare l’approfondimento necessario per sviluppare una proposta pertinente."
+        "text": "Per [valutare le soluzioni Energia Più](https://www.energiapiu.net/), parti dall’esigenza principale della casa: fotovoltaico, accumulo, riscaldamento oppure ricarica. Aggiungi gli impianti già presenti e i cambiamenti previsti nelle abitudini. Il confronto può così concentrarsi sui prodotti pertinenti e sul loro inserimento nell’immobile, prima di definire la configurazione della proposta."
       },
       {
         "type": "h2",
@@ -1337,18 +1337,24 @@ export const editorialNative: Article[] = [
   {
     "slug": "renova-solution-la-climatizzazione-continua-dopo-linstallazione",
     "category": "impianti",
-    "title": "Renova Solution: la climatizzazione continua dopo l’installazione",
+    "title": "Renova Solution: climatizzazione, installazione e manutenzione",
     "metaTitle": "Renova Solution: climatizzazione e manutenzione",
-    "metaDescription": "Comandi, istruzioni e riferimenti: come valutare il servizio di climatizzazione Renova Solution pensando anche all’utilizzo quotidiano.",
-    "abstract": "Una proposta per il comfort domestico va letta anche dal punto di vista di chi userà l’impianto. La consegna è il momento in cui il progetto entra nella vita della casa.",
-    "keywordPrimary": "Renova Solution: la climatizzazione continua dopo l’installazione",
-    "keywordsSecondary": [],
+    "metaDescription": "Renova Solution installa climatizzatori e segue la manutenzione in Friuli Venezia Giulia e Veneto. Scelta, comandi e assistenza per la casa.",
+    "abstract": "Renova Solution installa climatizzatori e segue la manutenzione in Friuli Venezia Giulia e Veneto. Scelta, comandi e assistenza per la casa.",
+    "keywordPrimary": "Renova Solution",
+    "keywordsSecondary": [
+      "climatizzazione",
+      "installazione climatizzatori",
+      "manutenzione climatizzatori",
+      "Friuli Venezia Giulia",
+      "Veneto"
+    ],
     "author": "redazione",
     "publishedAt": "2026-10-22T07:18:01Z",
-    "updatedAt": "2026-10-22T08:54:30Z",
+    "updatedAt": "2026-11-18T13:30:43Z",
     "cover": {
-      "src": "/editorial-assets/renova-solution.webp",
-      "alt": "Casa illustrativa con serramenti e pannelli solari, non un progetto documentato di Renova Solution"
+      "src": "/editorial-assets/renova-solution-climatizzazione-casa.webp",
+      "alt": "Soggiorno con climatizzatore a parete: immagine originale AI illustrativa, non un impianto reale Renova Solution."
     },
     "faq": [
       {
@@ -1373,11 +1379,11 @@ export const editorialNative: Article[] = [
     "body": [
       {
         "type": "p",
-        "text": "Una proposta per il comfort domestico va letta anche dal punto di vista di chi userà l’impianto. La consegna è il momento in cui il progetto entra nella vita della casa."
+        "text": "Renova Solution installa climatizzatori per la casa e gli ambienti di lavoro e si occupa della manutenzione. Opera in Friuli Venezia Giulia e Veneto. La scelta parte dalle esigenze dei locali e prosegue con l’installazione e con le informazioni necessarie per utilizzare il sistema nella vita quotidiana."
       },
       {
         "type": "p",
-        "text": "L'installazione è una tappa visibile del rinnovo della climatizzazione. Per chi abita la casa, il rapporto con l'impianto prosegue però attraverso comandi, impostazioni e documenti. Renova Solution presenta un servizio di climatizzazione che comprende anche il tema della manutenzione: un'offerta da approfondire ponendo domande sull'intero percorso."
+        "text": "Un climatizzatore entra nelle abitudini della famiglia: si regola al rientro, si usa in una stanza mentre le altre sono vuote e può essere gestito da persone diverse. Per questo il confronto sul prodotto deve comprendere anche comandi, istruzioni e riferimenti per la manutenzione. Sono aspetti concreti da affrontare prima della consegna."
       },
       {
         "type": "h2",
@@ -1477,6 +1483,15 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "h2",
+        "id": "servizio-azienda",
+        "text": "Dalla scelta del climatizzatore al suo utilizzo"
+      },
+      {
+        "type": "p",
+        "text": "Per contattare Renova Solution, descrivi gli ambienti interessati e indica se vuoi sostituire un impianto esistente oppure climatizzare locali che ne sono privi. Aggiungi gli orari di utilizzo e le eventuali difficoltà che incontri oggi. Questo permette di discutere il servizio a partire dalle necessità della casa, prima dei nomi dei modelli. Nella proposta, installazione e manutenzione devono avere un perimetro comprensibile: chi utilizzerà l’impianto dovrebbe sapere quali istruzioni riceverà, come richiedere assistenza e a quali componenti si riferisce l’offerta. Il contatto diretto serve a definire questi aspetti per il proprio intervento."
+      },
+      {
+        "type": "h2",
         "id": "informazioni-azienda",
         "text": "Informazioni e contatti"
       },
@@ -1502,15 +1517,19 @@ export const editorialNative: Article[] = [
   {
     "slug": "innovasol-scegliere-il-riscaldamento-a-partire-dallimmobile-esistente",
     "category": "impianti",
-    "title": "Innovasol: scegliere il riscaldamento a partire dall’immobile esistente",
-    "metaTitle": "Innovasol: riscaldamento e impianto esistente",
-    "metaDescription": "Documenti, ambienti e obiettivi: una traccia per conoscere la proposta di riscaldamento Innovasol senza scegliere prima la tecnologia.",
-    "abstract": "Il nome della tecnologia arriva dopo la lettura della casa. Descrivere la situazione attuale aiuta a formulare una richiesta che il professionista possa verificare.",
-    "keywordPrimary": "Innovasol: scegliere il riscaldamento a partire dall’immobile esistente",
-    "keywordsSecondary": [],
+    "title": "Innovasol: progettazione e installazione del riscaldamento in Sicilia",
+    "metaTitle": "Innovasol: impianti di riscaldamento in Sicilia",
+    "metaDescription": "Innovasol progetta e installa impianti di riscaldamento in Sicilia. Esigenze della casa, sistema esistente e uso degli ambienti guidano la valutazione.",
+    "abstract": "Innovasol progetta e installa impianti di riscaldamento in Sicilia. Esigenze della casa, sistema esistente e uso degli ambienti guidano la valutazione.",
+    "keywordPrimary": "Innovasol",
+    "keywordsSecondary": [
+      "riscaldamento Sicilia",
+      "impianti di riscaldamento",
+      "rinnovo impianto casa"
+    ],
     "author": "redazione",
     "publishedAt": "2026-10-22T07:18:01Z",
-    "updatedAt": "2026-10-22T08:54:30Z",
+    "updatedAt": "2026-11-18T13:30:43Z",
     "cover": {
       "src": "/editorial-assets/innovasol.webp",
       "alt": "Abitazione mediterranea illustrativa con solare e climatizzazione, non un impianto reale di Innovasol"
@@ -1538,11 +1557,11 @@ export const editorialNative: Article[] = [
     "body": [
       {
         "type": "p",
-        "text": "Il nome della tecnologia arriva dopo la lettura della casa. Descrivere la situazione attuale aiuta a formulare una richiesta che il professionista possa verificare."
+        "text": "Innovasol progetta e installa impianti di riscaldamento in Sicilia. Per rinnovare il sistema di una casa, il progetto deve considerare ciò che è già presente e gli ambienti da servire. L’obiettivo è mettere in relazione le esigenze di chi abita l’immobile con una soluzione adatta alle sue caratteristiche."
       },
       {
         "type": "p",
-        "text": "Quando si rinnova il riscaldamento, la discussione può iniziare troppo presto dal nome di un generatore. Prima è utile chiedersi quali ambienti si vogliono servire e quali elementi siano già presenti. Innovasol presenta sul proprio sito una sezione dedicata agli impianti di riscaldamento in Sicilia."
+        "text": "Una stanza poco confortevole, un generatore da sostituire o una ristrutturazione più ampia sono punti di partenza differenti. Prima di confrontare i prodotti, raccogli le informazioni sul sistema esistente e racconta quali cambiamenti desideri. Questa descrizione permette di affrontare il sopralluogo con domande legate alla tua casa."
       },
       {
         "type": "h2",
@@ -1642,6 +1661,15 @@ export const editorialNative: Article[] = [
       },
       {
         "type": "h2",
+        "id": "servizio-azienda",
+        "text": "Il riscaldamento nella casa che utilizzi ogni giorno"
+      },
+      {
+        "type": "p",
+        "text": "Nel primo contatto con Innovasol puoi indicare dove si trova l’immobile, quali stanze vengono utilizzate più spesso e come viene gestito oggi il riscaldamento. Se sono previsti nuovi infissi o una diversa distribuzione degli ambienti, aggiungi anche queste informazioni. I lavori possono modificare le esigenze da considerare nella proposta e meritano di essere discussi insieme. Il confronto utile riguarda il sistema completo: componenti da mantenere, elementi da sostituire e modalità di utilizzo. Prima dell’ordine, chiarisci che cosa comprende l’installazione e quali informazioni riceverai per la gestione dell’impianto, così da collegare la scelta del prodotto al servizio effettivo."
+      },
+      {
+        "type": "h2",
         "id": "informazioni-azienda",
         "text": "Informazioni e contatti"
       },
@@ -1667,15 +1695,19 @@ export const editorialNative: Article[] = [
   {
     "slug": "green-energy-group-una-mappa-delle-scelte-energetiche-per-la-casa",
     "category": "efficienza-energetica",
-    "title": "Green Energy Group: una mappa delle scelte energetiche per la casa",
-    "metaTitle": "Green Energy Group: una mappa energetica della casa",
-    "metaDescription": "Fotovoltaico, accumulo e nuovi utilizzi elettrici: come organizzare le priorità prima di conoscere le soluzioni Green Energy Group.",
-    "abstract": "La casa può cambiare per fasi. Una mappa delle decisioni aiuta a distinguere il sistema desiderato oggi dalle funzioni che vuoi soltanto valutare per domani.",
-    "keywordPrimary": "Green Energy Group: una mappa delle scelte energetiche per la casa",
-    "keywordsSecondary": [],
+    "title": "Green Energy Group: fotovoltaico, accumulo e ricarica per la casa",
+    "metaTitle": "Green Energy Group: fotovoltaico e accumulo per la casa",
+    "metaDescription": "Green Energy Group propone fotovoltaico, accumulo e ricarica elettrica. Come collegare impianti e abitudini della famiglia nel rinnovo della casa.",
+    "abstract": "Green Energy Group propone fotovoltaico, accumulo e ricarica elettrica. Come collegare impianti e abitudini della famiglia nel rinnovo della casa.",
+    "keywordPrimary": "Green Energy Group",
+    "keywordsSecondary": [
+      "fotovoltaico casa",
+      "sistemi di accumulo",
+      "ricarica elettrica"
+    ],
     "author": "redazione",
     "publishedAt": "2026-10-22T07:18:01Z",
-    "updatedAt": "2026-10-22T08:54:30Z",
+    "updatedAt": "2026-11-18T13:30:43Z",
     "cover": {
       "src": "/editorial-assets/green-energy-group.webp",
       "alt": "Casa illustrativa con fotovoltaico, accumulo e ricarica, non una realizzazione documentata di Green Energy Group"
@@ -1703,11 +1735,11 @@ export const editorialNative: Article[] = [
     "body": [
       {
         "type": "p",
-        "text": "La casa può cambiare per fasi. Una mappa delle decisioni aiuta a distinguere il sistema desiderato oggi dalle funzioni che vuoi soltanto valutare per domani."
+        "text": "Green Energy Group si occupa di impianti fotovoltaici, sistemi di accumulo e ricarica per veicoli elettrici. Per chi rinnova la casa, questi prodotti rispondono a esigenze diverse: produrre elettricità, utilizzarla anche in altri momenti e alimentare la ricarica. Il progetto deve collegare le funzioni alle abitudini della famiglia."
       },
       {
         "type": "p",
-        "text": "L'energia della casa è spesso distribuita tra acquisti diversi: un impianto, un nuovo apparecchio, un veicolo. Per discuterla in modo ordinato, conviene creare una mappa delle decisioni. Green Energy Group presenta un insieme di soluzioni che comprende fotovoltaico, accumulo e ricarica: famiglie di servizio da conoscere rispetto alle proprie priorità."
+        "text": "Non è necessario scegliere tutto nello stesso momento. Si può partire da un impianto fotovoltaico e valutare separatamente l’accumulo oppure discutere una soluzione che comprenda anche la ricarica. Le decisioni diventano più comprensibili quando si distinguono consumi presenti, cambiamenti già previsti e possibilità ancora da approfondire."
       },
       {
         "type": "h2",
@@ -1804,6 +1836,15 @@ export const editorialNative: Article[] = [
       {
         "type": "p",
         "text": "Conserva una vista d'insieme del progetto e, al suo interno, cartelle riconoscibili per i diversi impianti. Ogni cartella può contenere proposta approvata, identificativi, istruzioni e riferimenti. La separazione rende più semplice preparare una richiesta successiva, mentre la mappa generale aiuta a ricordare le interfacce. È un'organizzazione pratica per il proprietario: non sostituisce la documentazione tecnica e non attribuisce all'azienda prestazioni o attività che non siano indicate nella proposta concreta."
+      },
+      {
+        "type": "h2",
+        "id": "servizio-azienda",
+        "text": "Una proposta costruita sugli utilizzi della casa"
+      },
+      {
+        "type": "p",
+        "text": "Prima del contatto con Green Energy Group, annota quando la casa è maggiormente utilizzata e quali apparecchi incidono sulle abitudini della famiglia. Se possiedi un veicolo elettrico, indica in quali ore rimane parcheggiato presso l’abitazione. Se invece l’acquisto è solo un’idea, presentalo come possibilità futura. Queste differenze aiutano a discutere impianto, accumulo e ricarica senza sommare componenti per abitudine. Chiedi una proposta che permetta di riconoscere il ruolo di ciascun elemento e le condizioni considerate. Le alternative si confrontano più facilmente quando rispondono alle stesse esigenze e restano collegate alle caratteristiche effettive dell’immobile."
       },
       {
         "type": "h2",
