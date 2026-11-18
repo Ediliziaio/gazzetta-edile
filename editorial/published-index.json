@@ -1,5 +1,20 @@
 [
   {
+    "title": "Energia Più: fotovoltaico, accumulo, sistemi termici e ricarica elettrica",
+    "description": "Energia Più: fotovoltaico, accumulo, sistemi ibridi, caldaie, wallbox e pensiline. Prodotti e contatti per valutare gli impianti di casa.",
+    "path": "/impianti/energia-piu-fotovoltaico-accumulo-impianti",
+    "section": "native",
+    "slug": "energia-piu-fotovoltaico-accumulo-impianti",
+    "publishedAt": "2026-11-18",
+    "image": "/editorial-assets/energia-piu-fotovoltaico-accumulo-impianti.webp",
+    "sponsor": "Energia Più",
+    "sourceURLs": [
+      "https://www.energiapiu.net/",
+      "https://www.energiapiu.net/contatti-energia/"
+    ],
+    "category": "impianti"
+  },
+  {
     "title": "Impianto elettrico: prepara la casa stanza per stanza",
     "description": "Una scheda ambiente per chiedere il preventivo dell’impianto elettrico: arredi, usi, prese, luci e predisposizioni, da condividere con il progettista.",
     "path": "/impianti/impianto-elettrico-appartamento-scheda-stanza",

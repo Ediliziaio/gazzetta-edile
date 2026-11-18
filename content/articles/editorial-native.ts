@@ -1,6 +1,267 @@
 import type { Article } from "@/lib/content";
 export const editorialNative: Article[] = [
   {
+    "sponsor": "Energia Più",
+    "slug": "energia-piu-fotovoltaico-accumulo-impianti",
+    "title": "Energia Più: fotovoltaico, accumulo, sistemi termici e ricarica elettrica",
+    "metaTitle": "Energia Più: fotovoltaico, accumulo e impianti",
+    "metaDescription": "Energia Più: fotovoltaico, accumulo, sistemi ibridi, caldaie, wallbox e pensiline. Prodotti e contatti per valutare gli impianti di casa.",
+    "category": "impianti",
+    "abstract": "Energia Più progetta e realizza impianti per la produzione e l’utilizzo dell’energia. La sua proposta comprende fotovoltaico, accumulatori, sistemi ibridi, caldaie a condensazione, wallbox e pensiline fotovoltaiche. Il riferimento operativo è in via Stefano Breda 26 a Limena, in provincia di Padova; il sito ufficiale è energiapiu.net.",
+    "keywordPrimary": "Energia Più",
+    "keywordsSecondary": [
+      "Energia Più",
+      "Impianti ed Efficienza",
+      "Limena"
+    ],
+    "author": "redazione",
+    "publishedAt": "2026-11-18",
+    "updatedAt": "2026-11-18",
+    "cover": {
+      "src": "/editorial-assets/energia-piu-fotovoltaico-accumulo-impianti.webp",
+      "alt": "Casa con pannelli fotovoltaici e ricarica elettrica: immagine AI illustrativa, non un impianto reale di Energia Più."
+    },
+    "faq": [
+      {
+        "q": "Quali prodotti propone Energia Più?",
+        "a": "Impianti fotovoltaici, accumulatori, sistemi ibridi, caldaie a condensazione, wallbox e pensiline fotovoltaiche."
+      },
+      {
+        "q": "L’accumulo garantisce automaticamente energia durante un blackout?",
+        "a": "Non basta la presenza di una batteria: la funzione dipende dalla configurazione e dai componenti effettivamente previsti nel progetto."
+      },
+      {
+        "q": "Come contattare Energia Più?",
+        "a": "Dal sito energiapiu.net, al numero verde 800 010 995 o scrivendo a info@energiapiu.net. Il riferimento operativo è a Limena, in via Stefano Breda 26."
+      }
+    ],
+    "related": [],
+    "pillar": false,
+    "schemaType": "Article",
+    "body": [
+      {
+        "type": "p",
+        "text": "Energia Più progetta e realizza impianti per la produzione e l’utilizzo dell’energia. La sua proposta comprende fotovoltaico, accumulatori, sistemi ibridi, caldaie a condensazione, wallbox e pensiline fotovoltaiche. Il riferimento operativo è in via Stefano Breda 26 a Limena, in provincia di Padova; il sito ufficiale è energiapiu.net."
+      },
+      {
+        "type": "p",
+        "text": "Chi vuole intervenire sugli impianti di casa deve spesso collegare esigenze diverse. Produrre energia sul tetto, riscaldare gli ambienti e ricaricare un veicolo non sono la stessa operazione, ma possono incontrarsi nello stesso progetto. Valutarle insieme permette di ragionare sull’uso reale dell’abitazione, evitando di scegliere ogni prodotto senza considerare gli altri."
+      },
+      {
+        "type": "p",
+        "text": "Energia Più mette a disposizione un contatto diretto per conoscere le soluzioni e avviare il confronto sull’immobile. Le indicazioni di questo articolo aiutano a comprendere il ruolo dei diversi prodotti e a impostare una prima valutazione. Gli esempi sono ipotetici e non attribuiscono all’azienda risultati economici o interventi specifici non documentati."
+      },
+      {
+        "type": "h2",
+        "id": "una-proposta-che-collega-produzione-e-utilizzo",
+        "text": "Una proposta che collega produzione e utilizzo"
+      },
+      {
+        "type": "p",
+        "text": "L’offerta di Energia Più comprende prodotti che svolgono funzioni differenti. Il fotovoltaico produce energia elettrica quando sono presenti le condizioni di irraggiamento; l’accumulo consente di conservarne una parte per un utilizzo successivo. I sistemi termici rispondono invece alle esigenze di riscaldamento e acqua calda, mentre la wallbox è dedicata alla ricarica del veicolo."
+      },
+      {
+        "type": "p",
+        "text": "Comprendere questa distinzione aiuta a riconoscere il progetto di cui si ha bisogno. Una casa che vuole iniziare dal fotovoltaico può avere priorità diverse rispetto a un’abitazione in cui occorre rivedere il riscaldamento. Non serve acquistare ogni componente: il confronto dovrebbe individuare quali funzioni abbiano senso nella situazione reale e quali possano essere valutate in un altro momento."
+      },
+      {
+        "type": "p",
+        "text": "Il vantaggio pratico di discutere più esigenze nello stesso incontro è poterle mettere in relazione. Se cambieranno le abitudini della famiglia o arriverà un’auto elettrica, queste informazioni possono entrare nella valutazione iniziale. La scelta resta legata all’immobile e ai prodotti effettivi, senza supporre che una configurazione vista altrove sia automaticamente adatta alla propria casa."
+      },
+      {
+        "type": "h2",
+        "id": "il-fotovoltaico-parte-dallabitazione",
+        "text": "Il fotovoltaico parte dall’abitazione"
+      },
+      {
+        "type": "p",
+        "text": "Energia Più presenta impianti fotovoltaici nella propria gamma. Prima di pensare alla dimensione dell’impianto è utile osservare la casa: disponibilità delle superfici, presenza di ostacoli, esposizione e condizioni dell’edificio sono elementi da approfondire. Una fotografia del tetto può aiutare il primo confronto, ma non sostituisce la valutazione tecnica del luogo in cui i moduli dovrebbero essere installati."
+      },
+      {
+        "type": "p",
+        "text": "La produzione dipende dalle condizioni reali, non soltanto dal numero dei pannelli. Per questo una proposta utile deve riferirsi al sito e alla configurazione effettiva. Parlare di impianto in modo concreto significa collegare i componenti alle caratteristiche della copertura e alle esigenze dell’utente, evitando di trasformare una potenza nominale in una promessa di risultato uguale per ogni abitazione."
+      },
+      {
+        "type": "p",
+        "text": "Anche i consumi della casa fanno parte della valutazione. Il totale annuale offre un primo riferimento, ma le abitudini aiutano a capire quando viene utilizzata l’energia. Una famiglia presente soprattutto la sera e una casa vissuta durante il giorno possono richiedere ragionamenti differenti, pur partendo da un fabbisogno complessivo apparentemente simile."
+      },
+      {
+        "type": "h2",
+        "id": "laccumulo-sposta-luso-dellenergia-nel-tempo",
+        "text": "L’accumulo sposta l’uso dell’energia nel tempo"
+      },
+      {
+        "type": "p",
+        "text": "Gli accumulatori fanno parte della proposta di Energia Più. La loro funzione è collegata al rapporto tra produzione e utilizzo: possono rendere disponibile in un momento successivo una parte dell’energia conservata. Questo ruolo va considerato dentro il progetto, senza confondere la presenza della batteria con l’assenza di qualsiasi altro bisogno energetico della casa."
+      },
+      {
+        "type": "p",
+        "text": "Il confronto dovrebbe partire dagli orari e dagli apparecchi utilizzati. Se molti consumi avvengono quando il fotovoltaico non produce, l’accumulo può diventare un tema da approfondire. La valutazione deve però riferirsi alla configurazione proposta e alle condizioni effettive, senza scegliere una capacità soltanto perché sembra grande o perché è presente in un’offerta commerciale osservata online."
+      },
+      {
+        "type": "p",
+        "text": "È utile distinguere anche l’uso ordinario dalle funzioni particolari. Un sistema di accumulo non implica automaticamente una determinata alimentazione della casa durante un’interruzione di rete. Quella possibilità dipende dalla configurazione e dai componenti previsti. Chiedere quale funzione sia effettivamente compresa rende più leggibile la proposta e permette di confrontarla con le esigenze reali."
+      },
+      {
+        "type": "h2",
+        "id": "riscaldamento-e-acqua-calda-nel-progetto",
+        "text": "Riscaldamento e acqua calda nel progetto"
+      },
+      {
+        "type": "p",
+        "text": "Le esigenze termiche richiedono una lettura dell’immobile. Ambienti, abitudini e impianto esistente influenzano la scelta dei prodotti da valutare. Una casa occupata tutto il giorno può avere un utilizzo diverso da una abitata soltanto in alcune fasce orarie; anche il fabbisogno di acqua calda cambia con il numero delle persone e con le loro consuetudini."
+      },
+      {
+        "type": "p",
+        "text": "Energia Più tratta sistemi ibridi e caldaie a condensazione. Per comprendere una proposta è utile sapere a quale esigenza risponde ciascun componente e come viene inserito nell’impianto della casa. Il punto non è scegliere un nome tecnologico in astratto, ma capire il rapporto tra il prodotto, l’immobile e il servizio di cui si ha bisogno ogni giorno."
+      },
+      {
+        "type": "p",
+        "text": "La prima conversazione può partire dai problemi osservati: stanze difficili da portare al comfort desiderato, gestione poco chiara dei comandi oppure apparecchi da sostituire. Descriverli aiuta l’azienda a impostare l’approfondimento. La soluzione definitiva richiede comunque una valutazione tecnica della configurazione esistente e delle alternative compatibili con l’abitazione."
+      },
+      {
+        "type": "h2",
+        "id": "il-sistema-ibrido-come-soluzione-da-valutare",
+        "text": "Il sistema ibrido come soluzione da valutare"
+      },
+      {
+        "type": "p",
+        "text": "Il sistema ibrido presentato da Energia Più riguarda riscaldamento e produzione di acqua calda. L’idea è integrare fonti e componenti differenti all’interno di una configurazione coordinata. Per chi deve rinnovare l’impianto è utile comprenderne la logica di funzionamento e il rapporto con le condizioni della casa, senza attribuire allo stesso nome prestazioni identiche in ogni situazione."
+      },
+      {
+        "type": "p",
+        "text": "Nel confronto iniziale si possono spiegare le abitudini della famiglia e mostrare le informazioni disponibili sull’impianto esistente. È importante anche indicare gli eventuali cambiamenti previsti nell’abitazione, come una ristrutturazione o una diversa distribuzione degli ambienti. Questi elementi aiutano a valutare una proposta collegata alla casa che verrà realmente utilizzata, oltre che a quella attuale."
+      },
+      {
+        "type": "p",
+        "text": "I comandi e la gestione quotidiana meritano attenzione insieme ai componenti principali. Un sistema deve poter essere utilizzato dalle persone che vivono l’immobile, con funzioni comprensibili e riferimenti chiari per l’assistenza. Capire come si regolano le esigenze ordinarie fa parte della scelta e non dovrebbe essere rinviato soltanto al momento successivo all’installazione."
+      },
+      {
+        "type": "h2",
+        "id": "caldaie-a-condensazione-e-impianto-esistente",
+        "text": "Caldaie a condensazione e impianto esistente"
+      },
+      {
+        "type": "p",
+        "text": "Le caldaie a condensazione completano la gamma termica di Energia Più. La valutazione riguarda il prodotto preciso e il modo in cui può essere inserito nell’abitazione. Non è sufficiente confrontare due apparecchi soltanto per il loro ingombro o per il nome della categoria: serve collegarli al servizio richiesto e alle condizioni dell’impianto esistente."
+      },
+      {
+        "type": "p",
+        "text": "Una sostituzione può coinvolgere particolari che non si vedono nella fotografia dell’apparecchio. La configurazione dei collegamenti, gli spazi disponibili e gli elementi dell’impianto devono essere esaminati da chi segue la parte tecnica. La richiesta iniziale può quindi includere fotografie e dati disponibili, presentandoli come base per l’approfondimento e non come una verifica già conclusa."
+      },
+      {
+        "type": "p",
+        "text": "Il confronto con Energia Più può aiutare a comprendere quali prodotti vengano proposti e quali attività siano comprese. È utile distinguere l’apparecchio dalle lavorazioni necessarie per inserirlo nella casa. In questo modo la scelta resta leggibile e il cliente può riconoscere la soluzione discussa, senza ridurre il rinnovo dell’impianto al solo acquisto di un nuovo generatore."
+      },
+      {
+        "type": "h2",
+        "id": "wallbox-la-ricarica-entra-nelle-abitudini-domestiche",
+        "text": "Wallbox: la ricarica entra nelle abitudini domestiche"
+      },
+      {
+        "type": "p",
+        "text": "Energia Più propone wallbox per la ricarica elettrica. La scelta va collegata al veicolo, al posto in cui viene parcheggiato e al tempo durante il quale rimane disponibile. Una casa in cui l’auto rientra soprattutto la sera presenta esigenze differenti rispetto a una in cui il veicolo resta fermo per molte ore durante il giorno."
+      },
+      {
+        "type": "p",
+        "text": "La posizione del dispositivo influisce sull’uso quotidiano. Il cavo deve poter raggiungere il veicolo senza creare passaggi scomodi o interferire con gli accessi. Portare fotografie del parcheggio e indicare come viene utilizzato aiuta a discutere una collocazione pratica, da verificare poi con la valutazione tecnica dell’impianto elettrico e della configurazione prevista."
+      },
+      {
+        "type": "p",
+        "text": "La wallbox deve essere letta nel rapporto con gli altri consumi della casa. Fotovoltaico e accumulo possono entrare nello stesso ragionamento, ma il collegamento concreto dipende dai prodotti e dalla gestione proposta. È utile comprendere le funzioni effettive, evitando di immaginare che ogni dispositivo coordini automaticamente tutte le esigenze energetiche dell’abitazione."
+      },
+      {
+        "type": "h2",
+        "id": "pensiline-fotovoltaiche-copertura-e-produzione",
+        "text": "Pensiline fotovoltaiche: copertura e produzione"
+      },
+      {
+        "type": "p",
+        "text": "Le pensiline fotovoltaiche rientrano nell’offerta di Energia Più. Possono portare il tema della produzione energetica in uno spazio diverso dal tetto principale, collegandolo alla funzione della copertura. Il punto di partenza resta il luogo reale: area disponibile, accessi, utilizzo e rapporto con gli altri elementi dell’immobile devono essere considerati nel progetto."
+      },
+      {
+        "type": "p",
+        "text": "Una pensilina non dovrebbe essere scelta soltanto attraverso l’immagine della struttura. Conta come viene usato lo spazio sottostante, quali movimenti devono restare possibili e come la soluzione si inserisce nella proprietà. La parte energetica e quella della struttura richiedono un esame coerente del caso, senza trasformare una fotografia di ispirazione in una conferma di fattibilità."
+      },
+      {
+        "type": "p",
+        "text": "Se si desidera collegare la pensilina alla ricarica del veicolo, è utile raccontare anche le abitudini dell’auto. Il parcheggio e l’energia vengono così discussi nello stesso contesto. La proposta può essere valutata per le sue funzioni reali, senza presumere che la presenza dei moduli garantisca in ogni momento tutta l’energia necessaria alla ricarica."
+      },
+      {
+        "type": "h2",
+        "id": "progettare-per-le-esigenze-di-oggi-e-quelle-previste",
+        "text": "Progettare per le esigenze di oggi e quelle previste"
+      },
+      {
+        "type": "p",
+        "text": "Un intervento sugli impianti può essere l’occasione per considerare cambiamenti già programmati. L’arrivo di un veicolo elettrico, una diversa presenza della famiglia in casa o un rinnovo degli ambienti possono modificare il modo in cui verrà utilizzata l’energia. Comunicarli all’inizio aiuta a discutere il progetto con un orizzonte coerente, senza trasformare ogni ipotesi futura in un acquisto immediato."
+      },
+      {
+        "type": "p",
+        "text": "È utile distinguere ciò che è già definito da ciò che è soltanto possibile. Una necessità concreta può entrare nella configurazione da sviluppare; un’idea ancora incerta può essere affrontata come predisposizione da valutare. Questa distinzione rende più chiaro il confronto e aiuta a mantenere il progetto legato alle priorità dell’abitazione, anziché a una somma di prodotti non ancora necessari."
+      },
+      {
+        "type": "p",
+        "text": "L’azienda può così esaminare le esigenze nel loro insieme. Il ruolo del cliente è raccontare l’uso della casa; quello dei professionisti è valutare le soluzioni tecniche compatibili. La scelta diventa più utile quando questi due contributi si incontrano prima di definire componenti e attività, non quando l’impianto è già stato immaginato nei suoi dettagli senza un esame del luogo."
+      },
+      {
+        "type": "h2",
+        "id": "un-esempio-casa-con-consumi-soprattutto-serali",
+        "text": "Un esempio: casa con consumi soprattutto serali"
+      },
+      {
+        "type": "p",
+        "text": "Immaginiamo una famiglia che trascorra gran parte del giorno fuori casa e utilizzi molti apparecchi la sera. È un esempio ipotetico. Il confronto sul fotovoltaico può partire dai consumi disponibili e dalle caratteristiche della copertura, includendo poi una valutazione dell’accumulo in rapporto alla distribuzione degli utilizzi e alla configurazione proposta."
+      },
+      {
+        "type": "p",
+        "text": "Non è necessario presumere fin dall’inizio quale capacità debba avere la batteria o quale dimensione debba raggiungere l’impianto. Le informazioni sulla casa servono proprio a costruire la valutazione. Se è prevista anche la ricarica di un veicolo, occorre raccontare quando l’auto rientra e quanto rimane parcheggiata, perché questi elementi influenzano il ragionamento sull’uso dell’energia."
+      },
+      {
+        "type": "p",
+        "text": "Il risultato cercato è una proposta riconoscibile nelle funzioni. Il cliente dovrebbe capire che cosa produce il sistema, come viene utilizzato l’accumulo e quali altri apparecchi entrano nel progetto. Le prestazioni e gli eventuali risultati economici devono essere riferiti al caso effettivo, senza prendere l’esempio come dimostrazione di un risparmio garantito per tutte le abitazioni."
+      },
+      {
+        "type": "h2",
+        "id": "leggere-la-proposta-attraverso-le-funzioni-comprese",
+        "text": "Leggere la proposta attraverso le funzioni comprese"
+      },
+      {
+        "type": "p",
+        "text": "Una proposta comprensibile collega componenti e attività. Nel fotovoltaico è utile riconoscere moduli, conversione e configurazione dell’accumulo, quando presente. Negli interventi termici bisogna capire a quale servizio risponda il prodotto. Nella ricarica conta sapere come sarà utilizzato il punto dedicato e quali funzioni di gestione siano effettivamente previste."
+      },
+      {
+        "type": "p",
+        "text": "Il confronto non deve quindi fermarsi al nome commerciale o alla categoria del prodotto. Anche le attività comprese nell’intervento e i riferimenti per l’assistenza partecipano alla scelta. Una descrizione chiara permette di capire quale soluzione si sta valutando e di riconoscere le differenze reali tra due alternative, evitando di confrontare proposte che svolgono funzioni diverse."
+      },
+      {
+        "type": "p",
+        "text": "Il [sito di Energia Più](https://www.energiapiu.net/) presenta la gamma e l’impostazione del servizio. Per passare dalla panoramica generale alla valutazione della propria casa è utile avviare il contatto diretto, descrivendo gli obiettivi e mettendo a disposizione le informazioni disponibili sull’immobile. Da questa base può iniziare l’approfondimento necessario per sviluppare una proposta pertinente."
+      },
+      {
+        "type": "h2",
+        "id": "contattare-energia-piu",
+        "text": "Contattare Energia Più"
+      },
+      {
+        "type": "p",
+        "text": "Energia Più ha un riferimento operativo in via Stefano Breda 26 a Limena, in provincia di Padova. Il numero verde è 800 010 995 e l’indirizzo email è info@energiapiu.net. Questi recapiti permettono di conoscere i prodotti e spiegare se l’esigenza riguarda fotovoltaico, accumulo, sistemi termici oppure ricarica elettrica."
+      },
+      {
+        "type": "p",
+        "text": "Per il primo contatto è utile indicare il tipo di immobile e il risultato che si desidera ottenere. Non serve aver già scelto tutti i componenti. Fotografie, informazioni sugli impianti e abitudini di utilizzo aiutano a rendere concreto il confronto, lasciando alla valutazione professionale la definizione delle soluzioni compatibili con la casa."
+      },
+      {
+        "type": "p",
+        "text": "[Richiedi informazioni a Energia Più](https://www.energiapiu.net/contatti-energia/ \"sponsored\"). La richiesta arriva direttamente all’azienda e permette di avviare il confronto sui prodotti e sui servizi, partendo dalle caratteristiche dell’immobile e dalle esigenze energetiche della famiglia."
+      },
+      {
+        "type": "p",
+        "text": "Immagine originale generata con AI a scopo illustrativo. Non rappresenta lo showroom o un intervento reale dell’azienda."
+      }
+    ]
+  },
+  {
     "slug": "adesivi-piastrelle-supporto-formato-scheda",
     "title": "Adesivi per piastrelle: supporto, formato e scheda tecnica",
     "metaTitle": "Adesivi per piastrelle: leggere la scheda tecnica",
